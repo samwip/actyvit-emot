@@ -121,6 +121,18 @@
     @media(max-width:520px){.shell{padding:13px 12px 40px}.top-note{font-size:8px}.toolbar{grid-template-columns:1fr;gap:8px}.version-control{height:42px}.version-control select{max-width:none}.filter-row{display:block}.filter-label{display:block;padding:0 0 8px}.filters{gap:6px}.chip{padding:6px 8px}.gallery-heading{align-items:flex-start;gap:12px}.sort-note{max-width:145px;text-align:right;line-height:1.5}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:6px}.meta{gap:4px;flex-wrap:wrap}.id{display:none}.intro-row h1{font-size:27px}}
 
       img{-webkit-user-drag:none;user-select:none}
+
+    .account-strip{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:2px 0 8px;padding:13px 15px;border:1px solid #00e5ed2b;border-radius:14px;background:linear-gradient(100deg,#0a1318,#0b1016);box-shadow:0 8px 28px #0004}
+    .account-copy,.account-actions{display:flex;align-items:center;gap:10px}.account-copy{min-width:0;color:#dbe5ea;font-size:12px;font-weight:700}.account-pulse{width:7px;height:7px;flex:none;border-radius:50%;background:#77828e}.account-pulse.ok{background:#00e5ed;box-shadow:0 0 12px #00e5ed}.account-pulse.bad{background:#ff4c9a;box-shadow:0 0 10px #ff4c9a}.quota-label{color:#a6b0bc;font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}.account-button{height:36px;border:1px solid #00e5ed55;border-radius:9px;background:#00e5ed;color:#051114;padding:0 13px;font-size:11px;font-weight:900;white-space:nowrap}.account-button.secondary{background:#111922;color:#d7e0e7;border-color:#2b3742}.account-button:disabled{opacity:.55;cursor:wait}
+    .redeem-strip{display:grid;grid-template-columns:minmax(180px,1fr) minmax(180px,260px) auto;gap:12px;align-items:center;margin:0 0 14px;padding:14px;border:1px solid #26313c;border-radius:13px;background:#090e14}.redeem-strip[hidden],.account-button[hidden]{display:none}.redeem-strip>div{display:flex;flex-direction:column;gap:2px}.redeem-strip strong{color:#edf4f7;font-size:12px}.redeem-strip>div span{color:#84919d;font-size:10px}.redeem-strip input{height:36px;width:100%;padding:0 11px;border:1px solid #26313c;border-radius:9px;background:#05090e;color:#eef5f8;letter-spacing:.07em;outline:none}.redeem-message{grid-column:1/-1;color:#8cfbfc;font-size:11px}.redeem-message.error{color:#ff9abc}.sort-control select{min-width:126px}.popular-count{display:inline-flex;align-items:center;border:1px solid #00e5ed3e;border-radius:999px;padding:2px 6px;color:#7cf6fa;background:#00e5ed08;font-size:9px;white-space:nowrap}.card .meta{flex-wrap:wrap;justify-content:flex-start}.card .id{margin-left:auto}
+    @media(max-width:760px){.account-strip{align-items:flex-start;flex-direction:column}.account-actions{width:100%;flex-wrap:wrap}.quota-label{flex:1}.redeem-strip{grid-template-columns:1fr auto}.redeem-strip>div{grid-column:1/-1}.redeem-strip input{min-width:0}.toolbar{grid-template-columns:minmax(0,1fr) auto;gap:8px}.toolbar .search-wrap{grid-column:1/-1}.toolbar .version-control{font-size:9px}.toolbar .version-control select{max-width:150px}.toolbar .sort-control{justify-self:end}}
+    @media(max-width:420px){.toolbar{grid-template-columns:1fr 1fr}.toolbar .version-control,.toolbar .sort-control{justify-content:space-between}.toolbar .version-control select{max-width:116px}.redeem-strip{grid-template-columns:minmax(0,1fr) auto}.account-actions{gap:7px}.account-button{padding:0 10px}}
+
+    .account-strip{border:1px solid #29333e;border-radius:6px;background:#11171e;box-shadow:none}.account-pulse.ok{background:#72a7f8;box-shadow:0 0 9px #72a7f855}.account-pulse.bad{background:#bf7890;box-shadow:none}.account-button{border:1px solid #477bb7;border-radius:5px;background:#477bb7;color:#f6f9fc;font-weight:650}.account-button.secondary{border-color:#35414e;background:#18212b;color:#d7e0e7}.account-button:disabled{opacity:.55}
+    .redeem-strip{border:1px solid #29333e;border-radius:6px;background:#11171e}.redeem-strip strong{color:#e2e8ef}.redeem-strip>div span{color:#8994a0}.redeem-strip input{border:1px solid #303b47;border-radius:5px;background:#0e141b;color:#e4eaf0}.redeem-message{color:#a8c8f2}.redeem-message.error{color:#e4a2b1}
+    .gallery-controls{display:flex;align-items:center;gap:14px}.gallery-heading .sort-control{height:34px;gap:10px;padding:0 9px;border:1px solid #29333e;border-radius:5px;background:#11171e;color:#8995a2;font-size:9px}.gallery-heading .sort-control select{height:32px;max-width:130px;border:0!important;background:transparent!important;color:#dde5ec;font-size:11px}.popular-count{border-color:#355b89;background:#20344e;color:#b5d2ff}
+    @media(max-width:560px){.gallery-heading{flex-direction:column;align-items:flex-start}.gallery-controls{width:100%;justify-content:space-between;gap:8px}.gallery-heading .sort-control{flex:1;max-width:225px}.gallery-heading .sort-note{max-width:145px;text-align:right}}
+
   </style>
 </head>
 <body>
@@ -132,14 +144,24 @@
     <main>
       <section class="page-intro">
         <div class="eyebrow">FREE FIRE <span>/</span> CATÁLOGO DE EMOTES</div>
-        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e user sem ter comprado.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
+        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Explore o catálogo e solicite o uso do emote no jogo.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
       </section>
-      <section class="toolbar" aria-label="Busca e versão">
+      <section class="account-strip" aria-label="Conta e acesso">
+        <div class="account-copy"><span class="account-pulse" id="accountPulse"></span><span id="accountStatus">Conectando ao Discord...</span></div>
+        <div class="account-actions"><span class="quota-label" id="quotaStatus">Verificando cota</span><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
+      </section>
+      <form class="redeem-strip" id="redeemForm" hidden>
+        <div><strong>Ativar 7 dias de acesso</strong><span>O código é vinculado à conta Discord conectada e só pode ser resgatado uma vez.</span></div>
+        <input id="redeemCode" autocomplete="one-time-code" maxlength="40" placeholder="BE-XXXX-XXXX-XXXX-XXXX" aria-label="Código de acesso" required>
+        <button class="account-button" type="submit" id="redeemButton">Resgatar</button>
+        <span class="redeem-message" id="redeemMessage" role="status"></span>
+      </form>
+      <section class="toolbar" aria-label="Busca, versão e ordenação">
         <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="search" type="search" placeholder="Buscar emotes por nome ou ID" autocomplete="off" aria-label="Buscar emotes"></div>
         <label class="version-control">VERSÃO<select id="versionFilter" aria-label="Filtrar pela versão do jogo"></select></label>
       </section>
       <div class="filter-row"><span class="filter-label">RARIDADE</span><div class="filters" id="filters" aria-label="Filtrar por raridade"></div></div>
-      <div class="gallery-heading"><h2>Todos os emotes</h2><span class="sort-note" id="latestVersionLabel">VERSÕES RECENTES</span></div>
+      <div class="gallery-heading"><h2>Todos os emotes</h2><div class="gallery-controls"><label class="version-control sort-control">ORDENAR<select id="sortOrder" aria-label="Ordenar emotes"><option value="recent">Mais recentes</option><option value="popular">Mais usados</option></select></label><span class="sort-note" id="latestVersionLabel">VERSÕES RECENTES</span></div></div>
       <section class="grid" id="grid" aria-live="polite"><div class="loading">Carregando catálogo…</div></section>
     </main>
   </div>
@@ -160,21 +182,93 @@
     </section>
   </div>
   <div class="toast" id="toast" role="status"></div>
-  <script>
-    // A API recebe um GET com tc, uid1 e emote_id. Mantenha URL pública; nunca coloque senhas aqui.
-    // Na Activity do Discord, use os prefixos configurados em Activities > URL Mappings.
-    // No navegador comum, mantenha os endereços públicos que já funcionam.
+  <script type="module">
     const IS_DISCORD_ACTIVITY = /\.discordsays\.com$/i.test(window.location.hostname);
-    const EMOTE_API = IS_DISCORD_ACTIVITY ? '/api/emote' : 'https://emote-wip.squareweb.app/emote';
+    const DISCORD_CLIENT_ID = '1435243088930144306'; // ID público da Activity mostrada no Portal
+    const WEB_REDIRECT_URI = `${window.location.origin}${window.location.pathname}`;
+    const CONTROL_API_URL = 'https://beyond-emote-control.squareweb.app'; // altere se escolher outro subdomínio Square Cloud
+    const API_BASE = IS_DISCORD_ACTIVITY ? '/api' : CONTROL_API_URL;
     const IMAGE_API = IS_DISCORD_ACTIVITY ? '/imagens/image/' : 'https://wipimagemitem.squareweb.app/image/';
     const RARITY_LABEL = {GREEN:'Comum', BLUE:'Raro', PURPLE:'Épico', ORANGE:'Lendário', RED:'Mítico'};
     const RARITY_COLOR = {GREEN:'#75d77b', BLUE:'#54a6ff', PURPLE:'#bd7aff', ORANGE:'#ffad55', RED:'#ff5574'};
-    const state = {all:[], rarity:'ALL', version:'ALL', chosen:null, latestVersion:''};
+    const state = {all:[], rarity:'ALL', version:'ALL', sort:'recent', chosen:null, latestVersion:'', popularity:{}, accessToken:sessionStorage.getItem('beyondEmoteToken')||'', discordUser:null, access:null};
     const grid = document.querySelector('#grid'), filters = document.querySelector('#filters');
     const imageUrl = id => IMAGE_API + encodeURIComponent(id);
+    const apiUrl = path => API_BASE + path;
     function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
     function title(e){return e.name_pt || e.name || `Emote ${e.id}`}
     function versionNumber(tag){return Number(String(tag||'').replace(/\D/g,''))||0}
+    async function apiRequest(path, options={}){
+      const headers = {'Accept':'application/json', ...(options.headers||{})};
+      if (state.accessToken) headers.Authorization = `Bearer ${state.accessToken}`;
+      if (options.body && !headers['Content-Type']) headers['Content-Type']='application/json';
+      const response=await fetch(apiUrl(path),{...options,headers});
+      const raw=await response.text();let data;try{data=JSON.parse(raw)}catch{data={error:raw.slice(0,400)}}
+      if(!response.ok)throw Object.assign(new Error(data.message||data.error||`HTTP ${response.status}`),{status:response.status,code:data.code,data});
+      return data;
+    }
+    function setAccount(message,kind=''){
+      document.querySelector('#accountStatus').textContent=message;
+      const dot=document.querySelector('#accountPulse');dot.className='account-pulse'+(kind?' '+kind:'');
+    }
+    function showQuota(access){
+      state.access=access;
+      const el=document.querySelector('#quotaStatus');
+      if(!access){el.textContent='Cota indisponível';return}
+      if(access.paid){const date=new Date(access.paid_until);el.textContent=`ACESSO ATIVO · até ${date.toLocaleDateString('pt-BR')} ${date.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`}
+      else el.textContent=`GRÁTIS · ${access.free_remaining}/${access.free_limit} pedidos restantes nesta semana`;
+    }
+    async function refreshAccess(){
+      if(!state.accessToken){showQuota(null);return}
+      const access=await apiRequest('/access/status');showQuota(access);
+    }
+    function base64Url(bytes){let s='';for(const b of bytes)s+=String.fromCharCode(b);return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}
+    async function startWebLogin(){
+      const verifier=base64Url(crypto.getRandomValues(new Uint8Array(48)));
+      const challenge=base64Url(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(verifier))));
+      const stateValue=base64Url(crypto.getRandomValues(new Uint8Array(24)));
+      sessionStorage.setItem('beyondEmoteVerifier',verifier);sessionStorage.setItem('beyondEmoteOAuthState',stateValue);
+      const params=new URLSearchParams({client_id:DISCORD_CLIENT_ID,redirect_uri:WEB_REDIRECT_URI,response_type:'code',scope:'identify',state:stateValue,code_challenge:challenge,code_challenge_method:'S256'});
+      window.location.assign(`https://discord.com/oauth2/authorize?${params.toString()}`);
+    }
+    async function finishWebLogin(){
+      const params=new URLSearchParams(location.search),code=params.get('code');if(!code)return false;
+      const expected=sessionStorage.getItem('beyondEmoteOAuthState'),got=params.get('state'),verifier=sessionStorage.getItem('beyondEmoteVerifier');
+      if(!expected||!got||expected!==got||!verifier)throw Error('A validação de segurança do login falhou. Tente entrar novamente.');
+      const data=await apiRequest('/oauth/token',{method:'POST',body:JSON.stringify({flow:'web',code,code_verifier:verifier})});
+      state.accessToken=data.access_token;sessionStorage.setItem('beyondEmoteToken',state.accessToken);
+      sessionStorage.removeItem('beyondEmoteVerifier');sessionStorage.removeItem('beyondEmoteOAuthState');
+      history.replaceState({},document.title,location.pathname+location.hash);return true;
+    }
+    async function loginActivity(){
+      const {DiscordSDK}=await import('./discord-sdk.bundle.js');
+      const discordSdk=new DiscordSDK(DISCORD_CLIENT_ID);await discordSdk.ready();
+      const {code}=await discordSdk.commands.authorize({client_id:DISCORD_CLIENT_ID,response_type:'code',state:'',prompt:'none',scope:['identify']});
+      const data=await apiRequest('/oauth/token',{method:'POST',body:JSON.stringify({flow:'activity',code})});
+      state.accessToken=data.access_token;sessionStorage.setItem('beyondEmoteToken',state.accessToken);
+      const auth=await discordSdk.commands.authenticate({access_token:state.accessToken});state.discordUser=auth.user;
+    }
+    async function initAuth(){
+      const loginButton=document.querySelector('#loginButton');
+      try{
+        if(!IS_DISCORD_ACTIVITY){
+          if(new URLSearchParams(location.search).has('error'))throw Error('O login do Discord foi cancelado.');
+          const completed=await finishWebLogin();
+          if(!state.accessToken&&sessionStorage.getItem('beyondEmoteToken'))state.accessToken=sessionStorage.getItem('beyondEmoteToken');
+          if(!state.accessToken){setAccount('Entre com o Discord para usar a cota grátis.');loginButton.hidden=false;return}
+          setAccount('Conta Discord conectada','ok');
+        }else{
+          setAccount('Conectando à sua conta Discord...');
+          state.accessToken='';sessionStorage.removeItem('beyondEmoteToken');
+          await loginActivity();
+          setAccount(state.discordUser?.username?`Conectado como ${state.discordUser.username}`:'Conta Discord conectada','ok');loginButton.hidden=true;
+        }
+        await refreshAccess();
+      }catch(error){
+        state.accessToken='';sessionStorage.removeItem('beyondEmoteToken');setAccount(`Não foi possível conectar: ${error.message}`,'bad');showQuota(null);loginButton.hidden=IS_DISCORD_ACTIVITY;
+        console.error('Discord authentication:',error);
+      }
+    }
     function renderFilters(){
       const values=['ALL',...new Set(state.all.map(e=>e.rare).filter(Boolean))];
       filters.innerHTML=values.map(v=>`<button class="chip ${v===state.rarity?'active':''}" data-rarity="${escapeHtml(v)}">${v==='ALL'?'Todas raridades':escapeHtml(RARITY_LABEL[v]||v)}</button>`).join('');
@@ -186,22 +280,31 @@
     function render(){
       const q=document.querySelector('#search').value.trim().toLocaleLowerCase('pt-BR');
       const items=state.all.filter(e=>(state.rarity==='ALL'||e.rare===state.rarity)&&(state.version==='ALL'||(state.version==='NO_TAG'?!String(e.tag||'').trim():e.tag===state.version))&&(!q||`${e.id} ${e.name||''} ${e.name_pt||''} ${e.icon||''} ${e.tag||''}`.toLocaleLowerCase('pt-BR').includes(q)));
+      if(state.sort==='popular')items.sort((a,b)=>(state.popularity[String(b.id)]||0)-(state.popularity[String(a.id)]||0)||versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));
       if(!items.length){grid.innerHTML='<div class="empty">Nenhum emote encontrado. Tente outro nome, ID ou filtro.</div>';return}
-      grid.innerHTML=items.map(e=>`<button class="card" type="button" data-id="${escapeHtml(e.id)}" aria-label="Selecionar ${escapeHtml(title(e))}${e.tag===state.latestVersion?' — novo na versão mais recente':''}"><div class="art"><img src="${imageUrl(e.id)}" alt="${escapeHtml(title(e))}" loading="lazy" decoding="async"><span class="fallback" hidden>✦</span></div><div class="emote-name" title="${escapeHtml(title(e))}">${escapeHtml(title(e))}</div><div class="meta"><span class="rarity" style="--rarity:${RARITY_COLOR[e.rare]||'#a1a9b5'}">${escapeHtml(RARITY_LABEL[e.rare]||e.rare||'Emote')}</span><span class="tag-pill">${escapeHtml(e.tag||'Sem tag')}</span>${e.tag===state.latestVersion?'<span class="new-badge">NOVO</span>':''}<span class="id">${escapeHtml(e.id)}</span></div></button>`).join('');
+      grid.innerHTML=items.map(e=>{const uses=state.popularity[String(e.id)]||0;return `<button class="card" type="button" data-id="${escapeHtml(e.id)}" aria-label="Selecionar ${escapeHtml(title(e))}${e.tag===state.latestVersion?' — novo na versão mais recente':''}"><div class="art"><img src="${imageUrl(e.id)}" alt="${escapeHtml(title(e))}" loading="lazy" decoding="async"><span class="fallback" hidden>✦</span></div><div class="emote-name" title="${escapeHtml(title(e))}">${escapeHtml(title(e))}</div><div class="meta"><span class="rarity" style="--rarity:${RARITY_COLOR[e.rare]||'#a1a9b5'}">${escapeHtml(RARITY_LABEL[e.rare]||e.rare||'Emote')}</span><span class="tag-pill">${escapeHtml(e.tag||'Sem tag')}</span>${e.tag===state.latestVersion?'<span class="new-badge">NOVO</span>':''}${state.sort==='popular'?`<span class="popular-count">${uses} ${uses===1?'uso':'usos'}</span>`:''}<span class="id">${escapeHtml(e.id)}</span></div></button>`}).join('');
       grid.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;img.nextElementSibling.hidden=false},{once:true}));
+      document.querySelector('#latestVersionLabel').textContent=state.sort==='popular'?'ORDENADO POR PEDIDOS CONCLUÍDOS':(state.latestVersion?`${state.latestVersion} · NOVOS PRIMEIRO`:'VERSÕES RECENTES');
     }
     async function loadCatalog(){
-      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data.sort((a,b)=>versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));state.latestVersion=state.all.reduce((best,e)=>versionNumber(e.tag)>versionNumber(best)?String(e.tag||''):best,'');document.querySelector('#total').textContent=data.length;document.querySelector('#latestVersionLabel').textContent=state.latestVersion?`${state.latestVersion} · NOVOS PRIMEIRO`:'VERSÕES RECENTES';renderFilters();render()}
+      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data.sort((a,b)=>versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));state.latestVersion=state.all.reduce((best,e)=>versionNumber(e.tag)>versionNumber(best)?String(e.tag||''):best,'');document.querySelector('#total').textContent=data.length;renderFilters();render()}
       catch(e){grid.innerHTML='<div class="load-error">Não consegui carregar <code>emotes.json</code>. Confira se ele está na mesma pasta do <code>index.html</code> no GitHub Pages.</div>';console.error(e)}
     }
-    function openModal(emote){state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');document.querySelector('#team').focus()}
+    async function loadPopularity(){
+      try{const response=await fetch(apiUrl('/popular'),{headers:{'Accept':'application/json'}});if(!response.ok)return;const data=await response.json();state.popularity=Object.fromEntries((data.items||[]).map(x=>[String(x.emote_id),Number(x.uses)||0]));if(state.all.length)render()}
+      catch(error){console.warn('Ranking de popularidade ainda indisponível:',error)}
+    }
+    function openModal(emote){
+      if(!state.accessToken){if(!IS_DISCORD_ACTIVITY)document.querySelector('#loginButton').click();else setAccount('Aguardando autenticação Discord','bad');return}
+      state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');document.querySelector('#team').focus()
+    }
     function closeModal(){document.querySelector('#shade').classList.remove('open')}
     document.querySelector('#search').addEventListener('input',render);
     filters.addEventListener('click',e=>{const b=e.target.closest('[data-rarity]');if(!b)return;state.rarity=b.dataset.rarity;renderFilters();render()});
     document.querySelector('#versionFilter').addEventListener('change',e=>{state.version=e.target.value;render()});
+    document.querySelector('#sortOrder').addEventListener('change',e=>{state.sort=e.target.value;render()});
     document.querySelector('#addPlayer').addEventListener('click',()=>{
-      const wrap=document.querySelector('#extraPlayers'),current=wrap.querySelectorAll('.player-input').length+1;
-      if(current>=6)return;const n=current+1,field=document.createElement('div');field.className='player-extra';
+      const wrap=document.querySelector('#extraPlayers'),current=wrap.querySelectorAll('.player-input').length+1;if(current>=6)return;const n=current+1,field=document.createElement('div');field.className='player-extra';
       field.innerHTML=`<div class="field"><label for="player-${n}">UID do jogador ${n}</label><input class="player-input" id="player-${n}" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="UID do jogador ${n}"></div><button class="remove-player" type="button" aria-label="Remover jogador ${n}">×</button>`;
       wrap.appendChild(field);field.querySelector('.remove-player').addEventListener('click',()=>{field.remove();renumberPlayers()});renumberPlayers();field.querySelector('input').focus();
     });
@@ -213,34 +316,36 @@
     document.querySelector('#close').addEventListener('click',closeModal);
     document.querySelector('#shade').addEventListener('click',e=>{if(e.target.id==='shade')closeModal()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+    document.querySelector('#loginButton').addEventListener('click',()=>startWebLogin().catch(e=>setAccount(`Erro ao iniciar login: ${e.message}`,'bad')));
+    document.querySelector('#redeemToggle').addEventListener('click',()=>{const form=document.querySelector('#redeemForm');form.hidden=!form.hidden;if(!form.hidden){if(!state.accessToken&&!IS_DISCORD_ACTIVITY)document.querySelector('#loginButton').click();document.querySelector('#redeemCode').focus()}});
+    document.querySelector('#redeemForm').addEventListener('submit',async e=>{
+      e.preventDefault();const message=document.querySelector('#redeemMessage'),button=document.querySelector('#redeemButton');message.className='redeem-message';message.textContent='';
+      if(!state.accessToken){message.classList.add('error');message.textContent='Entre com o Discord antes de resgatar.';if(!IS_DISCORD_ACTIVITY)document.querySelector('#loginButton').click();return}
+      button.disabled=true;button.textContent='Validando…';
+      try{const data=await apiRequest('/access/redeem',{method:'POST',body:JSON.stringify({code:document.querySelector('#redeemCode').value.trim()})});message.textContent=data.message||'Código resgatado com sucesso.';document.querySelector('#redeemCode').value='';showQuota(data.access);}
+      catch(error){message.className='redeem-message error';message.textContent=error.message}
+      finally{button.disabled=false;button.textContent='Resgatar'}
+    });
     document.querySelector('#requestForm').addEventListener('submit',async e=>{
-      e.preventDefault();const form=e.currentTarget; if(!state.chosen||!form.reportValidity())return;
+      e.preventDefault();const form=e.currentTarget;if(!state.chosen||!form.reportValidity())return;
       const result=document.querySelector('#result'),button=document.querySelector('#submit');
-      const params=new URLSearchParams({tc:document.querySelector('#team').value.trim(),emote_id:String(state.chosen.id)});
-      document.querySelectorAll('#requestForm .player-input').forEach((input,index)=>{const uid=input.value.trim();if(uid)params.set(`uid${index+1}`,uid)});
+      const payload={tc:document.querySelector('#team').value.trim(),emote_id:String(state.chosen.id)};
+      document.querySelectorAll('#requestForm .player-input').forEach((input,index)=>{const uid=input.value.trim();if(uid)payload[`uid${index+1}`]=uid});
       result.className='result';result.textContent='';button.disabled=true;button.innerHTML='Enviando…';
       try{
-        const response=await fetch(`${EMOTE_API}?${params.toString()}`,{method:'GET',mode:'cors',headers:{'Accept':'application/json'}});
-        const raw=await response.text();let data;try{data=JSON.parse(raw)}catch{data={message:raw.slice(0,500)}}
-        if(!response.ok||data.status==='error')throw Error(data.message||`A API respondeu HTTP ${response.status}`);
-        result.className='result show good';result.textContent=data.message||'Pedido enviado para a API.';
-      }catch(err){
-        result.className='result show bad';
-        const msg=String(err.message||err);
-        result.textContent=(msg.includes('Failed to fetch')||msg.includes('NetworkError')||msg.includes('Load failed'))
-          ? (IS_DISCORD_ACTIVITY
-            ? 'O Discord não conseguiu alcançar a API pelo mapeamento /api. Confira em Activities → Mapeamentos de URL se /api aponta para emote-wip.squareweb.app e se as alterações foram salvas. O pedido pode não ter sido enviado.'
-            : 'O navegador não conseguiu ler a resposta da API. Confira o CORS da Square Cloud e se a API está online. O pedido pode não ter sido enviado.')
-          : msg;
-      }finally{button.disabled=false;button.innerHTML='Enviar pedido <span aria-hidden="true">↗</span>'}
+        const data=await apiRequest('/emote',{method:'POST',body:JSON.stringify(payload)});
+        result.className='result show good';result.textContent=`${data.message||'Pedido concluído.'} ${data.access?.paid?'':`Restam ${data.access?.free_remaining??'—'} usos grátis nesta semana.`}`;
+        state.popularity[String(state.chosen.id)]=(state.popularity[String(state.chosen.id)]||0)+1;render();showQuota(data.access);loadPopularity();
+      }catch(error){
+        result.className='result show bad';result.textContent=error.message;
+        if(error.code==='FREE_LIMIT_REACHED'){document.querySelector('#redeemForm').hidden=false;document.querySelector('#redeemCode').focus()}
+        if(error.status===401){state.accessToken='';sessionStorage.removeItem('beyondEmoteToken');setAccount('Sua sessão Discord expirou. Entre novamente.','bad');document.querySelector('#loginButton').hidden=IS_DISCORD_ACTIVITY}
+      }finally{button.disabled=false;button.innerHTML='Usar emote <span aria-hidden="true">↗</span>'}
     });
-
-    // Dificulta o salvamento casual; imagens públicas ainda podem ser abertas pela rede.
-    document.addEventListener('contextmenu', event => event.preventDefault(), {capture:true});
-    document.addEventListener('dragstart', event => {
-      if (event.target instanceof HTMLImageElement) event.preventDefault();
-    }, true);
-    loadCatalog();
+    document.addEventListener('contextmenu',event=>event.preventDefault(),{capture:true});
+    document.addEventListener('dragstart',event=>{if(event.target instanceof HTMLImageElement)event.preventDefault()},true);
+    loadCatalog();loadPopularity();
+    initAuth().catch(error=>console.error(error));
   </script>
 </body>
 </html>
