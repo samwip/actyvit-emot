@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050609">
-  <meta name="description" content="BEYOND EMOTE — galeria de emotes Free Fire com pedidos para seu squad.">
-  <title>BEYOND EMOTE — Galeria Free Fire</title>
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="BEYOND EMOTE — uma coleção para descobrir, escolher e pedir emotes do Free Fire.">
+  <title>BEYOND EMOTE — Emote Club</title>
   <style>
     :root{color-scheme:dark;--bg:#0b0e14;--panel:#121722;--panel2:#171e2b;--line:#252e3c;--text:#f2f5f8;--muted:#929eae;--lime:#c7f36b;--cyan:#66e3de;--pink:#ff628e;--radius:18px}
     *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -15%,#25341f 0,transparent 37%),radial-gradient(ellipse at 100% 0,#122b35 0,transparent 31%),var(--bg);color:var(--text);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
@@ -68,6 +68,39 @@
     .emote-float-layer{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;mask-image:linear-gradient(to bottom,transparent 2%,#000 16%,#000 80%,transparent 98%);opacity:.13}.float-emote{position:absolute;width:clamp(64px,8vw,124px);height:clamp(64px,8vw,124px);object-fit:contain;filter:drop-shadow(0 0 16px #00e5ed55);opacity:.58;transition:opacity .65s ease,filter .65s ease;animation:floatDrift var(--duration,18s) ease-in-out infinite alternate;animation-delay:var(--delay,0s)}.float-emote.changing{opacity:0;filter:drop-shadow(0 0 0 #00e5ed00)}@keyframes floatDrift{0%{transform:translate3d(0,14px,0) rotate(-9deg) scale(.88)}100%{transform:translate3d(16px,-18px,0) rotate(8deg) scale(1.08)}}
     .ownership-notice{display:flex;gap:11px;align-items:flex-start;padding:12px 13px;margin:1px 0 15px;border:1px solid #f3bb5260;border-radius:12px;background:linear-gradient(100deg,#f3bb5210,#ff8a3d08);color:#f3d69c;font-size:11px;line-height:1.6}.ownership-notice .notice-icon{flex:none;color:#ffc65c;font-size:17px;line-height:1}.ownership-notice strong{color:#ffe1a4}
     @media(max-width:760px){.popular-row{grid-template-columns:repeat(2,minmax(0,1fr))}.popular-card:nth-child(n+5){display:none}.emote-float-layer{opacity:.08}}
+
+    /* Direção visual editorial: papel, tinta, terracota e azul; sem neon/cyber. */
+    :root{color-scheme:light;--bg:#f5f1e8;--panel:#fffdf8;--panel2:#eee8dc;--line:#ded7cb;--text:#211f1b;--muted:#77736b;--lime:#e85c3a;--cyan:#3156c8;--pink:#bf4965}
+    body{background:#f5f1e8;color:#211f1b;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    body:before{background-image:radial-gradient(#30291c0b .7px,transparent .7px);background-size:6px 6px;opacity:.34;mask-image:linear-gradient(#000 0%,#000 80%,transparent 100%);animation:none}
+    .shell{max-width:1360px;padding-top:20px}
+    header{border-bottom:1px solid #211f1b26;padding-bottom:17px}
+    .brand{letter-spacing:.02em}.brand-mark{background:#e85c3a;color:white;border-radius:50%;box-shadow:none;font-family:Georgia,serif;font-style:italic}.brand-text{font-family:Georgia,"Times New Roman",serif;font-weight:900;letter-spacing:-.055em;font-size:19px!important;color:#211f1b}.brand-text .brand-accent{color:#e85c3a}.brand-text small{font:700 8px ui-monospace,monospace;letter-spacing:.22em;color:#77736b}
+    .top-note{color:#66734e;letter-spacing:.12em}.online-dot{background:#718c45;box-shadow:none}
+    .hero{padding:30px 0 22px}.hero-panel{min-height:420px;border:1px solid #d8d1c4;border-radius:7px;background:#eee8dc;box-shadow:0 14px 40px #51442d10;padding:38px 44px;overflow:hidden}
+    .hero-panel:before{background:linear-gradient(125deg,transparent 45%,#fff7 66%,transparent 82%)}
+    .hero-kicker{color:#77736b;font-size:9px;letter-spacing:.2em}.hero-kicker .pulse{background:#e85c3a;box-shadow:none}.hero-kicker span{color:#aaa297}
+    .hero-copy h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(60px,8vw,104px);font-weight:900;letter-spacing:-.09em;line-height:.79;color:#211f1b;text-shadow:none}.hero-copy h1 span{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:.68em;font-weight:800;letter-spacing:-.08em;-webkit-text-stroke:0;color:#3156c8;text-shadow:none;margin-top:13px}
+    .hero-copy p{color:#666157;font-size:14px;line-height:1.85}.hero-cta{background:#e85c3a;color:#fff;border-radius:4px;box-shadow:0 7px 16px #b942251f}.hero-cta:hover{box-shadow:0 10px 22px #b9422533}.hero-live{color:#77736b}.hero-live b{color:#211f1b}
+    .hero-stats{color:#77736b}.hero-stats b{color:#211f1b}.hero-stats i{background:#211f1b2b}
+    .hero-art-wrap{margin:-28px -30px -28px -18px}.hero-art-glow{background:#e85c3a16;filter:blur(42px)}.hero-art-ring{border-color:#3156c833;box-shadow:0 0 0 18px #3156c80a,0 0 0 44px #e85c3a0a}.hero-art{mix-blend-mode:multiply;filter:saturate(.88);mask-image:radial-gradient(ellipse at center,black 47%,transparent 80%);animation:artFloat 9s ease-in-out infinite}
+    .art-label{color:#3156c8;border-color:#3156c83a;background:#fffdf2e8;box-shadow:0 4px 12px #342a1614}.art-label-top span,.art-label-bottom span{color:#e85c3a}.art-label-bottom{color:#5e5a52}.orbit-a{background:#e85c3a;box-shadow:0 0 12px 3px #e85c3a55}.orbit-b{background:#3156c8;box-shadow:0 0 12px 3px #3156c855}
+    .hero-art-glow,.hero-art-ring{animation-duration:12s}
+    .toolbar{background:linear-gradient(#f5f1e8f5,#f5f1e8e8 76%,transparent);backdrop-filter:blur(10px)}
+    .search,.version-control select{background:#fffdf8;border:1px solid #d8d1c4;color:#211f1b;border-radius:6px}.search::placeholder{color:#969084}.search-wrap svg{color:#77736b}.search:focus,input:focus,select:focus{border-color:#3156c8;box-shadow:0 0 0 3px #3156c815}
+    .version-control{color:#77736b}.version-control select{color:#211f1b}
+    .chip{background:#fffdf8;color:#625e56;border-color:#d8d1c4;border-radius:4px}.chip:hover,.chip.active{background:#3156c8;border-color:#3156c8;color:#fff;box-shadow:none}
+    .popular-section{background:#e9e2d6;border-color:#d9d1c3;border-radius:7px;box-shadow:inset 0 1px #fff9}.popular-section:before{background:radial-gradient(ellipse at 9% 0%,#fff9,transparent 48%)}.popular-title .hot{color:#e85c3a}.popular-title h2,.gallery-heading h2{font-family:Georgia,"Times New Roman",serif;color:#211f1b}.popular-title p,.gallery-heading p{color:#77736b}.popular-label,.gallery-heading .section-tag{color:#3156c8}.popular-card{background:#fffdf8;border-color:#d8d1c4;border-radius:5px;color:#211f1b}.popular-card:hover{background:#fff;border-color:#e85c3a}.popular-thumb{background:#eee8dc;border-radius:4px}.popular-rank{color:#e85c3a}.popular-info small{color:#77736b}
+    .gallery-heading{margin:30px 0 10px}.gallery-heading h2{font-size:22px}.gallery-heading p{font-size:12px}
+    .grid{gap:14px}.card{background:#fffdf8;color:#211f1b;border-color:#ded7cb;border-radius:6px;padding:9px;box-shadow:0 3px 12px #3e341d0a;backdrop-filter:none}.card:hover{transform:translateY(-4px) rotate(-.35deg);border-color:#e85c3a88;box-shadow:0 12px 24px #473d2817}.art{background:#eee8dc;border-radius:4px}.emote-name{font-family:Georgia,"Times New Roman",serif;font-size:14px;color:#211f1b}.meta{color:#77736b}.rarity:before{box-shadow:none}.tag-pill{border:1px solid #3156c833;background:#3156c809;color:#3156c8;border-radius:3px}.id{color:#77736b}
+    .emote-float-layer{opacity:.07;filter:sepia(.22)}
+    .shade{background:#211f1b88;backdrop-filter:blur(6px)}.modal{background:#fffdf8;border:1px solid #d8d1c4;border-radius:8px;box-shadow:0 25px 70px #211f1b44;color:#211f1b}.modal-head{border-bottom-color:#ded7cb}.modal-head strong{font-family:Georgia,"Times New Roman",serif;font-size:17px}.close{border-color:#d8d1c4;color:#666157}.selected-art{background:#eee8dc}.selected h2{font-family:Georgia,"Times New Roman",serif}.selected p{color:#77736b}.form .field label{color:#403c35}.field input{background:white;border-color:#d8d1c4;color:#211f1b;border-radius:5px}.help,.fineprint{color:#77736b}.add-player{background:#3156c80b;border-color:#3156c855;color:#3156c8;border-radius:4px}.add-player span{color:#77736b}.remove-player{background:#fff;border-color:#ded7cb;color:#bf4965}.submit{background:#e85c3a;color:white;box-shadow:none;border-radius:4px}.submit:hover{box-shadow:0 8px 18px #b942252b}.result{border-color:#ded7cb}.result.good{background:#718c450e;border-color:#718c4560;color:#526b32}.result.bad{background:#bf49650b;border-color:#bf496555;color:#9b304b}.ownership-notice{background:#fff5df;border-color:#dfb45b;color:#6c572e;border-radius:5px}.ownership-notice strong{color:#4c3b1a}.ownership-notice .notice-icon{color:#bf7d15}
+    .empty,.loading{color:#77736b}.load-error{background:#fff5f3;border-color:#df8979;color:#9b3b2a}
+    .hero-cta:focus-visible,.card:focus-visible,.chip:focus-visible{outline:2px solid #3156c8;outline-offset:3px}
+    @media(max-width:860px){.hero-panel{padding:34px 28px 0}.hero-art-wrap{margin:-16px -15px -6px}}
+    @media(max-width:560px){.hero{padding-top:18px}.hero-panel{padding:27px 20px 0}.hero-copy h1{font-size:clamp(58px,16vw,78px)}.hero-art-wrap{min-height:220px}.popular-section{padding:14px 12px}.gallery-heading{margin-top:23px}}
+    @media(prefers-reduced-motion:reduce){.hero-art,.hero-art-ring,.hero-art-glow,.float-emote{animation:none!important}}
+
     @media(prefers-reduced-motion:reduce){.float-emote{animation:none!important}}
 
     @media(max-width:920px){.toolbar{grid-template-columns:minmax(180px,1fr) auto}.filters{grid-column:1/-1}}
@@ -85,17 +118,17 @@
       <section class="hero">
         <div class="hero-panel">
           <div class="hero-copy">
-            <div class="hero-kicker"><i class="pulse"></i> BEYOND SYSTEMS <span> / </span> EMOTE REQUESTS</div>
+            <div class="hero-kicker"><i class="pulse"></i> THE EMOTE CLUB <span> / </span> CURATED COLLECTION</div>
             <h1>BEYOND<span>EMOTE</span></h1>
             <p>Escolha o emote, monte seu squad e envie o pedido em segundos. Sua biblioteca de emotes, agora no estilo BEYOND.</p>
-            <div class="hero-actions"><button class="hero-cta" id="explore">Abrir catálogo <span>↓</span></button><div class="hero-live"><i class="online-dot"></i><span>API ONLINE<br><b>FREE FIRE</b></span></div></div>
+            <div class="hero-actions"><button class="hero-cta" id="explore">Abrir catálogo <span>↓</span></button><div class="hero-live"><i class="online-dot"></i><span>LIVE SERVICE<br><b>FREE FIRE</b></span></div></div>
             <div class="hero-stats"><span><b id="total">—</b> EMOTES</span><i></i><span>ATÉ <b>06</b> JOGADORES</span><i></i><span>VERSÕES <b>OB</b></span></div>
           </div>
           <div class="hero-art-wrap">
             <div class="hero-art-glow"></div><div class="hero-art-ring"></div>
-            <img class="hero-art" src="./beyond-emote-hero.png" alt="Portal holográfico ciano da identidade BEYOND EMOTE" fetchpriority="high">
+            <img class="hero-art" src="./beyond-emote-editorial.png" alt="Portal holográfico ciano da identidade BEYOND EMOTE" fetchpriority="high">
             <div class="art-label art-label-top"><span>01</span> EMOTE SELECTOR</div>
-            <div class="art-label art-label-bottom">SQUAD CONTROL <span>●</span> READY</div>
+            <div class="art-label art-label-bottom">YOUR SQUAD <span>●</span> READY</div>
             <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
           </div>
         </div>
