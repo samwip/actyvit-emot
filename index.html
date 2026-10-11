@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f1e8">
+  <meta name="theme-color" content="#0c1117">
   <meta name="description" content="BEYOND EMOTE — uma coleção para descobrir, escolher e pedir emotes do Free Fire.">
-  <title>BEYOND EMOTE — Emote Club</title>
+  <title>BEYOND EMOTE — Catálogo de emotes</title>
   <style>
     :root{color-scheme:dark;--bg:#0b0e14;--panel:#121722;--panel2:#171e2b;--line:#252e3c;--text:#f2f5f8;--muted:#929eae;--lime:#c7f36b;--cyan:#66e3de;--pink:#ff628e;--radius:18px}
     *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -15%,#25341f 0,transparent 37%),radial-gradient(ellipse at 100% 0,#122b35 0,transparent 31%),var(--bg);color:var(--text);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
@@ -105,44 +105,40 @@
 
     @media(max-width:920px){.toolbar{grid-template-columns:minmax(180px,1fr) auto}.filters{grid-column:1/-1}}
     @media(max-width:680px){.shell{padding-top:12px}.hero{grid-template-columns:1fr;padding:34px 0 22px}.count-box{display:none}.toolbar{grid-template-columns:1fr;gap:9px;padding-top:9px}.filters{padding-bottom:5px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.art{height:132px}.top-note{display:none}}
+
+    /* Dark professional catalog: direct access, quiet graphite surfaces and restrained blue accents. */
+    :root{color-scheme:dark;--bg:#0c1117;--panel:#141a22;--panel2:#10161d;--line:#26303b;--text:#e4e9ef;--muted:#8b96a3;--lime:#72a7f8;--cyan:#72a7f8;--pink:#bf7890}
+    body{background:#0c1117;color:#e4e9ef;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}body:before{background-image:radial-gradient(#9eb7d608 .7px,transparent .7px);background-size:7px 7px;opacity:.3;mask-image:linear-gradient(#000,#000 72%,transparent);animation:none}
+    .shell{max-width:1380px;padding:20px 32px 64px;position:relative;z-index:1}header{height:55px;border-bottom:1px solid #26303b;padding-bottom:13px;align-items:center}
+    .brand{gap:11px}.brand-mark{width:34px;height:30px;border-radius:6px;background:#1b2735;color:#9bbdf0;box-shadow:none;font-size:12px;font-weight:800;letter-spacing:-.08em}.brand-text{display:flex;gap:5px;font-family:inherit;font-size:14px!important;font-weight:750;letter-spacing:.025em;color:#eef2f6}.brand-text .brand-accent{color:#9aa6b3}.brand-text small{display:none}.top-note{font:10px ui-monospace,monospace;letter-spacing:.1em;color:#7f8a97}.top-note span{color:#53606d;margin:0 5px}
+    .page-intro{padding:28px 0 20px}.eyebrow{font:9px ui-monospace,monospace;letter-spacing:.16em;color:#8492a0}.eyebrow span{color:#53606d;margin:0 5px}.intro-row{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-top:10px}.intro-row h1{font-size:clamp(27px,3vw,35px);line-height:1.12;letter-spacing:-.045em;margin:0;font-weight:700;color:#edf1f5}.intro-row p{margin:7px 0 0;color:#929daa;font-size:12px}.total-stat{display:flex;align-items:baseline;gap:7px;padding-bottom:3px;color:#97a3b1}.total-stat strong{font-size:22px;letter-spacing:-.04em;color:#dce3ea}.total-stat span{font:9px ui-monospace,monospace;letter-spacing:.12em}
+    .toolbar{position:relative;top:auto;display:grid;grid-template-columns:minmax(240px,1fr) 200px;gap:10px;padding:0;background:none;backdrop-filter:none}.search-wrap{height:43px;display:flex;align-items:center;gap:10px;padding:0 12px;border:1px solid #29333e;border-radius:6px;background:#11171e;color:#84909c}.search-wrap svg{flex:none}.search{width:100%;height:100%;padding:0;border:0!important;outline:0;background:transparent!important;box-shadow:none!important;color:#e5ebf1;font-size:12px}.search::placeholder{color:#74808c}.version-control{display:flex;align-items:center;gap:8px;justify-content:space-between;padding:0 10px 0 12px;border:1px solid #29333e;border-radius:6px;background:#11171e;color:#8995a2;font:9px ui-monospace,monospace;letter-spacing:.08em}.version-control select{height:38px;max-width:118px;border:0!important;background:transparent!important;box-shadow:none!important;color:#dde5ec;font:11px ui-sans-serif,system-ui;letter-spacing:normal}
+    .filter-row{display:flex;align-items:flex-start;gap:14px;margin:12px 0 0;padding:12px 0;border-bottom:1px solid #252e38}.filter-label{flex:none;padding-top:7px;color:#74808c;font:9px ui-monospace,monospace;letter-spacing:.12em}.filters{display:flex;flex-wrap:wrap;gap:6px}.chip{padding:6px 9px;border:1px solid #303a45;border-radius:4px;background:#11171e;color:#a7b1bc;font-size:10px;font-weight:550;transition:background .16s,border-color .16s,color .16s}.chip:hover{background:#18212b;border-color:#536476;color:#e2e8ef}.chip.active{background:#20344e;border-color:#355b89;color:#b5d2ff;box-shadow:none}
+    .gallery-heading{display:flex;align-items:center;justify-content:space-between;margin:20px 0 11px}.gallery-heading h2{margin:0;font-size:14px;font-weight:650;color:#e1e7ed}.gallery-heading p,.gallery-heading .section-tag{display:none}.sort-note{color:#768391;font:9px ui-monospace,monospace;letter-spacing:.1em}
+    .grid{grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:11px}.card{padding:7px;border:1px solid #252f3a;border-radius:6px;background:#131a22;color:#dce3e9;box-shadow:none;backdrop-filter:none;transition:border-color .16s,background .16s,transform .16s}.card:hover{transform:translateY(-2px);border-color:#47617c;background:#171f29;box-shadow:0 8px 18px #0003}.art{height:auto;aspect-ratio:1;background:#0e141b;border-radius:4px;overflow:hidden}.art img{object-fit:contain}.emote-name{margin-top:8px;min-height:19px;color:#e1e7ed;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:12px;font-weight:580}.meta{display:flex;align-items:center;gap:5px;margin-top:5px;color:#8994a0;font-size:9px}.rarity{white-space:nowrap}.rarity:before{box-shadow:none}.tag-pill{padding:2px 5px;border:1px solid #33404e;border-radius:3px;background:#19222c;color:#9eabb8;font-size:8px;white-space:nowrap}.new-badge{padding:2px 5px;border:1px solid #345d49;border-radius:3px;background:#1a2a22;color:#8dc8a5;font:700 8px ui-monospace,monospace;letter-spacing:.05em}.id{margin-left:auto;color:#66727e;font:8px ui-monospace,monospace}
+    .shade{background:#03070bbd;backdrop-filter:blur(5px)}.modal{max-width:520px;background:#121820;border:1px solid #303a46;border-radius:8px;box-shadow:0 24px 80px #0009;color:#e5eaf0}.modal-head{border-bottom:1px solid #29333e}.modal-head strong{font-size:13px;letter-spacing:.08em}.close{border-color:#34404d;background:#18212b;color:#c4ccd5}.selected-art{background:#0d131a}.selected h2{color:#f0f3f6;font-size:17px}.selected p{color:#8894a0}.field label{color:#bac4ce}.field input{background:#0e141b;border:1px solid #303b47;color:#e4eaf0;border-radius:5px}.field input::placeholder{color:#697582}.help,.fineprint{color:#7d8995}.add-player{border:1px solid #3a526c;background:#182330;color:#a8c8f2;border-radius:5px}.add-player span{color:#8693a0}.remove-player{border-color:#384450;background:#171f28;color:#c28494}.submit{background:#477bb7;color:#f6f9fc;border-radius:5px;box-shadow:none;font-weight:650}.submit:hover{background:#5288c7;box-shadow:none}.result.good{background:#17261e;border-color:#355b43;color:#a2d5b1}.result.bad{background:#2a1c22;border-color:#67404b;color:#e4a2b1}.ownership-notice{background:#1f1d17;border-color:#554830;color:#c8b88e;border-radius:5px}.ownership-notice strong{color:#e4d4ad}.ownership-notice .notice-icon{color:#cdb576}.load-error{background:#281b1e;border-color:#65343d;color:#e8a5ad}.empty,.loading{color:#84909c}
+    @media(max-width:760px){.shell{padding:16px 18px 48px}.page-intro{padding:24px 0 18px}.grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:9px}}
+    @media(max-width:520px){.shell{padding:13px 12px 40px}.top-note{font-size:8px}.toolbar{grid-template-columns:1fr;gap:8px}.version-control{height:42px}.version-control select{max-width:none}.filter-row{display:block}.filter-label{display:block;padding:0 0 8px}.filters{gap:6px}.chip{padding:6px 8px}.gallery-heading{align-items:flex-start;gap:12px}.sort-note{max-width:145px;text-align:right;line-height:1.5}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:6px}.meta{gap:4px;flex-wrap:wrap}.id{display:none}.intro-row h1{font-size:27px}}
+
   </style>
 </head>
 <body>
-  <div class="emote-float-layer" id="emoteFloatLayer" aria-hidden="true"></div>
   <div class="shell">
     <header>
-      <div class="brand"><div class="brand-mark">B</div><span class="brand-text">BEY<span class="brand-accent">OND</span><small>EMOTE</small></span></div>
-      <div class="top-note"><i class="online-dot"></i> SISTEMA ONLINE · FREE FIRE</div>
+      <div class="brand"><span class="brand-mark">BE</span><span class="brand-text">BEYOND <span class="brand-accent">EMOTE</span></span></div>
+      <div class="top-note">FREE FIRE <span>·</span> EMOTE CATALOG</div>
     </header>
     <main>
-      <section class="hero">
-        <div class="hero-panel">
-          <div class="hero-copy">
-            <div class="hero-kicker"><i class="pulse"></i> THE EMOTE CLUB <span> / </span> CURATED COLLECTION</div>
-            <h1>BEYOND<span>EMOTE</span></h1>
-            <p>Escolha o emote, monte seu squad e envie o pedido em segundos. Sua biblioteca de emotes, agora no estilo BEYOND.</p>
-            <div class="hero-actions"><button class="hero-cta" id="explore">Abrir catálogo <span>↓</span></button><div class="hero-live"><i class="online-dot"></i><span>LIVE SERVICE<br><b>FREE FIRE</b></span></div></div>
-            <div class="hero-stats"><span><b id="total">—</b> EMOTES</span><i></i><span>ATÉ <b>06</b> JOGADORES</span><i></i><span>VERSÕES <b>OB</b></span></div>
-          </div>
-          <div class="hero-art-wrap">
-            <div class="hero-art-glow"></div><div class="hero-art-ring"></div>
-            <img class="hero-art" src="./beyond-emote-editorial.png" alt="Portal holográfico ciano da identidade BEYOND EMOTE" fetchpriority="high">
-            <div class="art-label art-label-top"><span>01</span> EMOTE SELECTOR</div>
-            <div class="art-label art-label-bottom">YOUR SQUAD <span>●</span> READY</div>
-            <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
-          </div>
-        </div>
+      <section class="page-intro">
+        <div class="eyebrow">FREE FIRE <span>/</span> CATÁLOGO DE EMOTES</div>
+        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e envie para o seu squad.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
       </section>
-      <section class="popular-section" aria-label="Emotes mais usados nesta página">
-        <div class="popular-head"><div><div class="popular-title"><span class="hot">✦</span><div><h2>Em alta na sua página</h2><p>Emotes que as pessoas mais abriram neste navegador.</p></div></div></div><span class="popular-label">// TOP_EMOTES</span></div>
-        <div class="popular-row" id="popularRow"><div class="loading">Carregando destaques…</div></div>
+      <section class="toolbar" aria-label="Busca e versão">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="search" type="search" placeholder="Buscar emotes por nome ou ID" autocomplete="off" aria-label="Buscar emotes"></div>
+        <label class="version-control">VERSÃO<select id="versionFilter" aria-label="Filtrar pela versão do jogo"></select></label>
       </section>
-      <section class="toolbar" aria-label="Busca e filtros">
-        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="search" type="search" placeholder="Buscar pelo nome ou ID..." autocomplete="off" aria-label="Buscar emotes"></div>
-        <label class="version-control">Versão do jogo<select id="versionFilter" aria-label="Filtrar pela versão do jogo"></select></label>
-        <div class="filters" id="filters" aria-label="Filtrar por raridade"></div>
-      </section>
-      <div class="gallery-heading"><div><h2>Biblioteca de emotes</h2><p>Pesquise, filtre e escolha para abrir o pedido do squad.</p></div><span class="section-tag">// CATALOG_01</span></div>
+      <div class="filter-row"><span class="filter-label">RARIDADE</span><div class="filters" id="filters" aria-label="Filtrar por raridade"></div></div>
+      <div class="gallery-heading"><h2>Todos os emotes</h2><span class="sort-note" id="latestVersionLabel">VERSÕES RECENTES</span></div>
       <section class="grid" id="grid" aria-live="polite"><div class="loading">Carregando catálogo…</div></section>
     </main>
   </div>
@@ -169,36 +165,16 @@
     const IMAGE_API = 'https://wipimagemitem.squareweb.app/image/';
     const RARITY_LABEL = {GREEN:'Comum', BLUE:'Raro', PURPLE:'Épico', ORANGE:'Lendário', RED:'Mítico'};
     const RARITY_COLOR = {GREEN:'#75d77b', BLUE:'#54a6ff', PURPLE:'#bd7aff', ORANGE:'#ffad55', RED:'#ff5574'};
-    const state = {all:[], rarity:'ALL', version:'ALL', chosen:null, popular:{}};
+    const state = {all:[], rarity:'ALL', version:'ALL', chosen:null, latestVersion:''};
     const grid = document.querySelector('#grid'), filters = document.querySelector('#filters');
     const imageUrl = id => IMAGE_API + encodeURIComponent(id);
     function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
     function title(e){return e.name_pt || e.name || `Emote ${e.id}`}
-    const POPULAR_KEY='beyondEmotePopularityV1';
-    function loadPopularity(){try{const v=JSON.parse(localStorage.getItem(POPULAR_KEY)||'{}');state.popular=v&&typeof v==='object'?v:{}}catch{state.popular={}}}
-    function recordOpen(emote){state.popular[emote.id]=(Number(state.popular[emote.id])||0)+1;try{localStorage.setItem(POPULAR_KEY,JSON.stringify(state.popular))}catch{};renderPopular()}
-    function renderPopular(){
-      const row=document.querySelector('#popularRow');if(!state.all.length)return;
-      const ranked=[...state.all].sort((a,b)=>(Number(state.popular[b.id])||0)-(Number(state.popular[a.id])||0)||Number(a.id)-Number(b.id)).slice(0,5);
-      row.innerHTML=ranked.map((e,i)=>`<button class="popular-card" type="button" data-popular-id="${escapeHtml(e.id)}"><span class="popular-rank">0${i+1}</span><img class="popular-thumb" src="${imageUrl(e.id)}" alt="" loading="lazy"><span class="popular-info"><strong>${escapeHtml(title(e))}</strong><small>${Number(state.popular[e.id])||0} ${Number(state.popular[e.id])===1?'ABERTURA':'ABERTURAS'}</small></span></button>`).join('');
-    }
-    function renderFloatingEmotes(){
-      const layer=document.querySelector('#emoteFloatLayer');if(!layer||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-      const chosen=state.all.filter(e=>e.id).sort((a,b)=>(Number(state.popular[b.id])||0)-(Number(state.popular[a.id])||0)).slice(0,12);
-      const positions=[[7,24],[83,18],[72,68],[13,74],[91,46],[34,13],[58,81],[3,53],[96,76],[43,63],[26,86],[78,36]];
-      layer.innerHTML=chosen.map((e,i)=>`<img class="float-emote" data-index="${i}" src="${imageUrl(e.id)}" alt="" style="left:${positions[i][0]}%;top:${positions[i][1]}%;--duration:${15+(i%5)*3}s;--delay:-${i*1.3}s" loading="lazy">`).join('');
-      const images=[...layer.querySelectorAll('.float-emote')];
-      images.forEach((img,i)=>setInterval(()=>{
-        let next=(Number(img.dataset.index)+1+Math.floor(Math.random()*Math.max(1,chosen.length-1)))%chosen.length;
-        if(next===Number(img.dataset.index))next=(next+1)%chosen.length;
-        img.classList.add('changing');
-        setTimeout(()=>{img.src=imageUrl(chosen[next].id);img.dataset.index=String(next);img.classList.remove('changing')},550);
-      },5200+i*310));
-    }
+    function versionNumber(tag){return Number(String(tag||'').replace(/\D/g,''))||0}
     function renderFilters(){
       const values=['ALL',...new Set(state.all.map(e=>e.rare).filter(Boolean))];
       filters.innerHTML=values.map(v=>`<button class="chip ${v===state.rarity?'active':''}" data-rarity="${escapeHtml(v)}">${v==='ALL'?'Todas raridades':escapeHtml(RARITY_LABEL[v]||v)}</button>`).join('');
-      const versions=[...new Set(state.all.map(e=>String(e.tag||'').trim()).filter(Boolean))].sort((a,b)=>Number(a.replace(/\D/g,''))-Number(b.replace(/\D/g,'')));
+      const versions=[...new Set(state.all.map(e=>String(e.tag||'').trim()).filter(Boolean))].sort((a,b)=>versionNumber(b)-versionNumber(a));
       const select=document.querySelector('#versionFilter');
       select.innerHTML='<option value="ALL">Todas versões</option>'+versions.map(v=>`<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('')+'<option value="NO_TAG">Sem tag</option>';
       select.value=state.version;
@@ -207,16 +183,15 @@
       const q=document.querySelector('#search').value.trim().toLocaleLowerCase('pt-BR');
       const items=state.all.filter(e=>(state.rarity==='ALL'||e.rare===state.rarity)&&(state.version==='ALL'||(state.version==='NO_TAG'?!String(e.tag||'').trim():e.tag===state.version))&&(!q||`${e.id} ${e.name||''} ${e.name_pt||''} ${e.icon||''} ${e.tag||''}`.toLocaleLowerCase('pt-BR').includes(q)));
       if(!items.length){grid.innerHTML='<div class="empty">Nenhum emote encontrado. Tente outro nome, ID ou filtro.</div>';return}
-      grid.innerHTML=items.map(e=>`<button class="card" type="button" data-id="${escapeHtml(e.id)}" aria-label="Selecionar ${escapeHtml(title(e))}"><div class="art"><img src="${imageUrl(e.id)}" alt="${escapeHtml(title(e))}" loading="lazy" decoding="async"><span class="fallback" hidden>✦</span></div><div class="emote-name" title="${escapeHtml(title(e))}">${escapeHtml(title(e))}</div><div class="meta"><span class="rarity" style="--rarity:${RARITY_COLOR[e.rare]||'#a1a9b5'}">${escapeHtml(RARITY_LABEL[e.rare]||e.rare||'Emote')}</span><span class="tag-pill">${escapeHtml(e.tag||'Sem tag')}</span><span class="id">${escapeHtml(e.id)}</span></div></button>`).join('');
+      grid.innerHTML=items.map(e=>`<button class="card" type="button" data-id="${escapeHtml(e.id)}" aria-label="Selecionar ${escapeHtml(title(e))}${e.tag===state.latestVersion?' — novo na versão mais recente':''}"><div class="art"><img src="${imageUrl(e.id)}" alt="${escapeHtml(title(e))}" loading="lazy" decoding="async"><span class="fallback" hidden>✦</span></div><div class="emote-name" title="${escapeHtml(title(e))}">${escapeHtml(title(e))}</div><div class="meta"><span class="rarity" style="--rarity:${RARITY_COLOR[e.rare]||'#a1a9b5'}">${escapeHtml(RARITY_LABEL[e.rare]||e.rare||'Emote')}</span><span class="tag-pill">${escapeHtml(e.tag||'Sem tag')}</span>${e.tag===state.latestVersion?'<span class="new-badge">NOVO</span>':''}<span class="id">${escapeHtml(e.id)}</span></div></button>`).join('');
       grid.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;img.nextElementSibling.hidden=false},{once:true}));
     }
     async function loadCatalog(){
-      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data;document.querySelector('#total').textContent=data.length;renderFilters();render();renderPopular();renderFloatingEmotes()}
+      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data.sort((a,b)=>versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));state.latestVersion=state.all.reduce((best,e)=>versionNumber(e.tag)>versionNumber(best)?String(e.tag||''):best,'');document.querySelector('#total').textContent=data.length;document.querySelector('#latestVersionLabel').textContent=state.latestVersion?`${state.latestVersion} · NOVOS PRIMEIRO`:'VERSÕES RECENTES';renderFilters();render()}
       catch(e){grid.innerHTML='<div class="load-error">Não consegui carregar <code>emotes.json</code>. Confira se ele está na mesma pasta do <code>index.html</code> no GitHub Pages.</div>';console.error(e)}
     }
     function openModal(emote){state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');document.querySelector('#team').focus()}
     function closeModal(){document.querySelector('#shade').classList.remove('open')}
-    document.querySelector('#explore').addEventListener('click',()=>document.querySelector('#search').scrollIntoView({behavior:'smooth',block:'center'}));
     document.querySelector('#search').addEventListener('input',render);
     filters.addEventListener('click',e=>{const b=e.target.closest('[data-rarity]');if(!b)return;state.rarity=b.dataset.rarity;renderFilters();render()});
     document.querySelector('#versionFilter').addEventListener('change',e=>{state.version=e.target.value;render()});
@@ -230,8 +205,7 @@
       const rows=[...document.querySelectorAll('#extraPlayers .player-extra')];rows.forEach((row,i)=>{const n=i+2,input=row.querySelector('input'),label=row.querySelector('label'),remove=row.querySelector('.remove-player');input.id=`player-${n}`;label.htmlFor=input.id;label.textContent=`UID do jogador ${n}`;input.placeholder=`UID do jogador ${n}`;remove.setAttribute('aria-label',`Remover jogador ${n}`)});
       const total=rows.length+1,button=document.querySelector('#addPlayer');button.querySelector('span').textContent=`(${total}/6)`;button.disabled=total>=6;
     }
-    grid.addEventListener('click',e=>{const c=e.target.closest('[data-id]');if(c){const emote=state.all.find(x=>String(x.id)===c.dataset.id);if(emote){recordOpen(emote);openModal(emote)}}});
-    document.querySelector('#popularRow').addEventListener('click',e=>{const c=e.target.closest('[data-popular-id]');if(!c)return;const emote=state.all.find(x=>String(x.id)===c.dataset.popularId);if(emote){recordOpen(emote);openModal(emote)}});
+    grid.addEventListener('click',e=>{const c=e.target.closest('[data-id]');if(c){const emote=state.all.find(x=>String(x.id)===c.dataset.id);if(emote)openModal(emote)}});
     document.querySelector('#close').addEventListener('click',closeModal);
     document.querySelector('#shade').addEventListener('click',e=>{if(e.target.id==='shade')closeModal()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
@@ -252,7 +226,6 @@
         result.textContent=(msg.includes('Failed to fetch')||msg.includes('NetworkError')||msg.includes('Load failed'))?'O navegador não conseguiu ler a resposta da API. Confira se a Square Cloud permite CORS para o domínio do seu GitHub Pages e se a API está online. O pedido pode não ter sido enviado.':msg;
       }finally{button.disabled=false;button.innerHTML='Enviar pedido <span aria-hidden="true">↗</span>'}
     });
-    loadPopularity();
     loadCatalog();
   </script>
 </body>
