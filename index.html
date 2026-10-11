@@ -125,13 +125,13 @@
 <body>
   <div class="shell">
     <header>
-      <div class="brand"><span class="brand-mark">BE</span><span class="brand-text">BEYOND <span class="brand-accent">EMOTE</span></span></div>
+      <div class="brand"><span class="brand-mark">B</span><span class="brand-text">BEYOND <span class="brand-accent">EMOTE</span></span></div>
       <div class="top-note">FREE FIRE <span>·</span> EMOTE CATALOG</div>
     </header>
     <main>
       <section class="page-intro">
         <div class="eyebrow">FREE FIRE <span>/</span> CATÁLOGO DE EMOTES</div>
-        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e envie para o seu squad.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
+        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e user sem ter comprado.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
       </section>
       <section class="toolbar" aria-label="Busca e versão">
         <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="search" type="search" placeholder="Buscar emotes por nome ou ID" autocomplete="off" aria-label="Buscar emotes"></div>
@@ -147,12 +147,12 @@
       <div class="modal-head"><strong id="modalTitle">PEDIR EMOTE</strong><button class="close" id="close" aria-label="Fechar">×</button></div>
       <div class="selected"><img class="selected-art" id="chosenImage" alt=""><div><h2 id="chosenName"></h2><p>ID do emote: <span id="chosenId"></span></p></div></div>
       <form class="form" id="requestForm">
-        <div class="ownership-notice"><span class="notice-icon">ⓘ</span><span><strong>Importante:</strong> para conseguir ver o emote sendo usado dentro do jogo, você precisa tê-lo disponível/baixado na sua conta.</span></div>
+        <div class="ownership-notice"><span class="notice-icon">ⓘ</span><span><strong>Importante:</strong> para conseguir ver o emote sendo usado dentro do jogo, você precisa tê-lo baixado.</span></div>
         <div class="field"><label for="team">Código da equipe</label><input id="team" name="tc" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 2088398" required><p class="help">Código da sala/equipe em que o bot deve entrar.</p></div>
         <div class="field"><label for="player-1">UID do jogador 1</label><input class="player-input" id="player-1" name="uid1" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 3588937037" required><p class="help">Adicione até 6 UIDs. O bot entra uma vez no squad e envia o emote para cada jogador.</p></div>
         <div id="extraPlayers"></div>
         <button class="add-player" id="addPlayer" type="button">＋ Adicionar jogador <span>(1/6)</span></button>
-        <button class="submit" id="submit" type="submit">Enviar pedido <span aria-hidden="true">↗</span></button>
+        <button class="submit" id="submit" type="submit">Usar emote <span aria-hidden="true">↗</span></button>
         <div class="result" id="result" role="status"></div>
         <p class="fineprint">O pedido usa os dados informados. Não envie senha da sua conta.</p>
       </form>
