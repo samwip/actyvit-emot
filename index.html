@@ -187,6 +187,8 @@
   </div>
   <div class="toast" id="toast" role="status"></div>
   <script type="module">
+    let activitySdk = null;
+    const STORE_URL = 'https://beyond.squareweb.app/?p=bot-de-emote';
     const IS_DISCORD_ACTIVITY = /\.discordsays\.com$/i.test(window.location.hostname);
     const DISCORD_CLIENT_ID = '1435243088930144306'; // ID público da Activity mostrada no Portal
     const WEB_REDIRECT_URI = `${window.location.origin}${window.location.pathname}`;
@@ -258,7 +260,7 @@
     }
     async function loginActivity(){
       const {DiscordSDK}=await import('./discord-sdk.bundle.js');
-      const discordSdk=new DiscordSDK(DISCORD_CLIENT_ID);await discordSdk.ready();
+      const discordSdk=new DiscordSDK(DISCORD_CLIENT_ID);activitySdk=discordSdk;await discordSdk.ready();
       const {code}=await discordSdk.commands.authorize({client_id:DISCORD_CLIENT_ID,response_type:'code',state:'',prompt:'none',scope:['identify']});
       const data=await apiRequest('/oauth/token',{method:'POST',body:JSON.stringify({flow:'activity',code})});
       state.accessToken=data.access_token;sessionStorage.setItem('beyondEmoteToken',state.accessToken);
@@ -357,6 +359,19 @@
         if(error.code==='FREE_LIMIT_REACHED'){state.limitReached=true;result.className='result';result.textContent='';updateLimitUI();document.querySelector('#buyPanel').scrollIntoView({block:'nearest',behavior:'smooth'})}
         if(error.status===401){state.accessToken='';sessionStorage.removeItem('beyondEmoteToken');setAccount('Sua sessão Discord expirou. Entre novamente.','bad');document.querySelector('#loginButton').hidden=IS_DISCORD_ACTIVITY}
       }finally{button.disabled=false;button.innerHTML='Usar emote <span aria-hidden="true">↗</span>';updateLimitUI()}
+    });
+    document.addEventListener('click',async e=>{
+      const link=e.target.closest('.buy-link');if(!link)return;
+      if(!IS_DISCORD_ACTIVITY)return; // no site normal, o link abre em nova aba
+      e.preventDefault();
+      try{
+        if(!activitySdk)throw Error('SDK do Discord indisponível');
+        await activitySdk.commands.openExternalLink({url:STORE_URL});
+      }catch(error){
+        console.error('openExternalLink:',error);
+        navigator.clipboard?.writeText(STORE_URL).catch(()=>{});
+        alert('Não consegui abrir o navegador automaticamente. O link da loja foi copiado: '+STORE_URL);
+      }
     });
     document.addEventListener('contextmenu',event=>event.preventDefault(),{capture:true});
     document.addEventListener('dragstart',event=>{if(event.target instanceof HTMLImageElement)event.preventDefault()},true);
