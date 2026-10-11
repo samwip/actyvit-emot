@@ -1,0 +1,4148 @@
+[
+  {
+    "id": "909000001",
+    "name": "Hello!",
+    "icon": "Icon_Emote_Hello",
+    "rare": "GREEN",
+    "cat": "EMOTE",
+    "name_pt": "Olá!"
+  },
+  {
+    "id": "909000002",
+    "name": "LOL",
+    "icon": "Icon_Emote_LOL",
+    "rare": "GREEN",
+    "cat": "EMOTE",
+    "name_pt": "LOL"
+  },
+  {
+    "id": "909000003",
+    "name": "Provoke",
+    "icon": "Icon_Emote_Provoke",
+    "rare": "GREEN",
+    "cat": "EMOTE",
+    "name_pt": "Provocar"
+  },
+  {
+    "id": "909000004",
+    "name": "Applause",
+    "icon": "Icon_Emote_Clap",
+    "rare": "GREEN",
+    "cat": "EMOTE",
+    "name_pt": "Aplauso"
+  },
+  {
+    "id": "909000005",
+    "name": "Dab",
+    "icon": "Icon_Emote_DAB",
+    "rare": "GREEN",
+    "cat": "EMOTE",
+    "name_pt": "Dab"
+  },
+  {
+    "id": "909000006",
+    "name": "Chicken",
+    "icon": "Icon_Emote_FunkyChicken",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Galinha",
+    "pass": "7"
+  },
+  {
+    "id": "909000007",
+    "name": "Arm Wave",
+    "icon": "Icon_Emote_Wave",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Onda no Braço"
+  },
+  {
+    "id": "909000008",
+    "name": "Shoot Dance",
+    "icon": "Icon_Emote_Shootdance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Dança do Tiro",
+    "pass": "8"
+  },
+  {
+    "id": "909000009",
+    "name": "Baby Shark",
+    "icon": "Icon_Emote_Babyshark",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Tubarão Bebê"
+  },
+  {
+    "id": "909000010",
+    "name": "Flowers of Love",
+    "icon": "Icon_Emote_Valentine",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Flores do Amor"
+  },
+  {
+    "id": "909000011",
+    "name": "Mummy Dance",
+    "icon": "Icon_Emote_Egypt",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Dança da Múmia",
+    "pass": "10"
+  },
+  {
+    "id": "909000012",
+    "name": "Push-up",
+    "icon": "Icon_Emote_Bombsquad",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Flexão",
+    "pass": "9"
+  },
+  {
+    "id": "909000013",
+    "name": "Shuffling",
+    "icon": "Icon_Emote_Shuffle",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Shuffling"
+  },
+  {
+    "id": "909000014",
+    "name": "FFWC Throne",
+    "icon": "Icon_Emote_GW",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Trono do Mundial"
+  },
+  {
+    "id": "909000015",
+    "name": "Dragon Fist",
+    "icon": "Icon_Emote_Dragons",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Soco Dracônico",
+    "pass": "11"
+  },
+  {
+    "id": "909000016",
+    "name": "Dangerous Game",
+    "icon": "Icon_Emote_PVEZombie",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Jogo Perigoso"
+  },
+  {
+    "id": "909000017",
+    "name": "Jaguar Dance",
+    "icon": "Icon_Emote_Jaguar",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Dança do Jaguar",
+    "pass": "12"
+  },
+  {
+    "id": "909000018",
+    "name": "Threaten",
+    "icon": "Icon_Emote_Cutthroat",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Ameaça"
+  },
+  {
+    "id": "909000019",
+    "name": "Shake With Me",
+    "icon": "Icon_Emote_Letsgroove",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Agite comigo"
+  },
+  {
+    "id": "909000020",
+    "name": "Devil's Move",
+    "icon": "Icon_Emote_Apocalypse",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Dança de Zaouli",
+    "pass": "13"
+  },
+  {
+    "id": "909000021",
+    "name": "Furious Slam",
+    "icon": "Icon_Emote_Desert",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Batida Furiosa",
+    "pass": "15"
+  },
+  {
+    "id": "909000022",
+    "name": "Moon Flip",
+    "icon": "Icon_Emote_Kickthemoon",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Chute a Lua"
+  },
+  {
+    "id": "909000023",
+    "name": "Wiggle walk",
+    "icon": "Icon_Emote_WiggleWalk",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Mexa o Pé"
+  },
+  {
+    "id": "909000024",
+    "name": "Battle Dance",
+    "icon": "Icon_Emote_EPHunter",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Batalha de Dança"
+  },
+  {
+    "id": "909000025",
+    "name": "High Five",
+    "icon": "Icon_Emote_EPHunter2",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Bate ai"
+  },
+  {
+    "id": "909000026",
+    "name": "Shake It Up",
+    "icon": "Icon_Emote_Boom",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "No Ritmo"
+  },
+  {
+    "id": "909000027",
+    "name": "Glorious Spin",
+    "icon": "Icon_Emote_Splits",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Volta Gloriosa"
+  },
+  {
+    "id": "909000028",
+    "name": "Crane Kick",
+    "icon": "Icon_Emote_CraneKick",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Chute na Cabeça"
+  },
+  {
+    "id": "909000029",
+    "name": "Party Dance",
+    "icon": "Icon_Emote_Partydance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Dança na Festa"
+  },
+  {
+    "id": "909000031",
+    "name": "Jig Dance",
+    "icon": "Icon_Emote_PirateJig",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Danã Jig"
+  },
+  {
+    "id": "909000032",
+    "name": "Selfie",
+    "icon": "Icon_Emote_Selfie",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Selfie"
+  },
+  {
+    "id": "909000033",
+    "name": "Soul Shaking",
+    "icon": "Icon_Emote_FlailingSwag",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Rebolando até a alma"
+  },
+  {
+    "id": "909000034",
+    "name": "Pirate's Flag",
+    "icon": "Icon_Emote_battleflag_pirate",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Bandeira Pirata"
+  },
+  {
+    "id": "909000036",
+    "name": "Top DJ",
+    "icon": "Icon_Emote_Djman",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Top DJ"
+  },
+  {
+    "id": "909000037",
+    "name": "Death glare",
+    "icon": "Icon_Emote_Antonio",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Olhar da morte"
+  },
+  {
+    "id": "909000038",
+    "name": "Power of money",
+    "icon": "Icon_Emote_Moco",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Dinheiro é poder"
+  },
+  {
+    "id": "909000039",
+    "name": "Eat my dust",
+    "icon": "Icon_Emote_Kelly",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Coma poeira"
+  },
+  {
+    "id": "909000040",
+    "name": "Break dance",
+    "icon": "Icon_Emote_Miguel",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Só no passinho"
+  },
+  {
+    "id": "909000041",
+    "name": "Kongfu",
+    "icon": "Icon_Emote_kongfu",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Kung Fu",
+    "pass": "51"
+  },
+  {
+    "id": "909000042",
+    "name": "Bon Appetit",
+    "icon": "Icon_Emote_Saltbae",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Bom Apetite"
+  },
+  {
+    "id": "909000043",
+    "name": "Aim, fire!",
+    "icon": "Icon_Emote_StrikePose1",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Apontar... FOGO!"
+  },
+  {
+    "id": "909000044",
+    "name": "The Swan",
+    "icon": "Icon_Emote_Swans",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "O Cisne"
+  },
+  {
+    "id": "909000045",
+    "name": "I heart you",
+    "icon": "Icon_Emote_Loveheart",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Eu te amo"
+  },
+  {
+    "id": "909000046",
+    "name": "Tea Time",
+    "icon": "Icon_Emote_tea",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Café da Tarde"
+  },
+  {
+    "id": "909000047",
+    "name": "Bring It On!",
+    "icon": "Icon_Emote_HitDemFolks",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Cai Dentro!"
+  },
+  {
+    "id": "909000048",
+    "name": "Why? Oh Why?",
+    "icon": "Icon_Emote_sorrow",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Nãaaaao!"
+  },
+  {
+    "id": "909000049",
+    "name": "Fancy Hands",
+    "icon": "Icon_Emote_Whirling",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Mãos Dançantes"
+  },
+  {
+    "id": "909000051",
+    "name": "Shimmy",
+    "icon": "Icon_Emote_Shimmy",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Remelexo"
+  },
+  {
+    "id": "909000052",
+    "name": "Doggie",
+    "icon": "Icon_Emote_DanceWithDog",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Cachorro dançando funk"
+  },
+  {
+    "id": "909000053",
+    "name": "Challenge On!",
+    "icon": "Icon_Emote_Glitch",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Que o desafio comece!"
+  },
+  {
+    "id": "909000054",
+    "name": "Lasso",
+    "icon": "Icon_Emote_Lasso",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Laçada",
+    "pass": "26"
+  },
+  {
+    "id": "909000055",
+    "name": "I'm Rich!",
+    "icon": "Icon_Emote_Jumpsuit1",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Milhona que chama!"
+  },
+  {
+    "id": "909000056",
+    "name": "Make It Rain",
+    "icon": "Icon_Emote_Jumpsuit2",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Faz chover!"
+  },
+  {
+    "id": "909000057",
+    "name": "Dust Off",
+    "icon": "Icon_Emote_DustOff",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Tirando a Poeira"
+  },
+  {
+    "id": "909000058",
+    "name": "Captain Booyah",
+    "icon": "Icon_Emote_Professor",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Capitão Booyah"
+  },
+  {
+    "id": "909000059",
+    "name": "Let's Go!",
+    "icon": "Icon_Emote_Fight",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Bora lá!"
+  },
+  {
+    "id": "909000060",
+    "name": "BOOYAH!",
+    "icon": "Icon_Emote_BooyahDay",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "BOOYAH!"
+  },
+  {
+    "id": "909000061",
+    "name": "Bhangra",
+    "icon": "Icon_Emote_Bhangra",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Bhangra"
+  },
+  {
+    "id": "909000062",
+    "name": "Piece of Cake",
+    "icon": "Icon_Emote_ElaborateBow",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Agradecimentos Especiais"
+  },
+  {
+    "id": "909000063",
+    "name": "Draco's Summon",
+    "icon": "Icon_Emote_EvilDragon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Invocação Dracônica"
+  },
+  {
+    "id": "909000064",
+    "name": "I'm Saitama!",
+    "icon": "Icon_Emote_Megapunch_Smile",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Eu sou o Saitama.",
+    "pass": "77"
+  },
+  {
+    "id": "909000065",
+    "name": "The Victor",
+    "icon": "Icon_Emote_BountyDance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Vitorioso!"
+  },
+  {
+    "id": "909000066",
+    "name": "Sii!",
+    "icon": "Icon_Emote_BountyJump",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Sii!"
+  },
+  {
+    "id": "909000067",
+    "name": "Obliteration",
+    "icon": "Icon_Emote_Megapunch_Punch",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Um Soco Só!"
+  },
+  {
+    "id": "909000068",
+    "name": "Feeding Time",
+    "icon": "Icon_Emote_SHARK",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Hora do rango!"
+  },
+  {
+    "id": "909000069",
+    "name": "Top Scorer",
+    "icon": "Icon_Emote_Football",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Goleada"
+  },
+  {
+    "id": "909000070",
+    "name": "Triple Kicks",
+    "icon": "Icon_Emote_Karate",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Chute Triplo"
+  },
+  {
+    "id": "909000071",
+    "name": "Cobra Dance",
+    "icon": "Icon_Emote_Cobra_LeadEmote",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "name_pt": "Dança do Cobra"
+  },
+  {
+    "id": "909000072",
+    "name": "Predator Pulse",
+    "icon": "Icon_Emote_Cobra_BooyahEmote",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Força Predadora"
+  },
+  {
+    "id": "909000073",
+    "name": "Ground Punch",
+    "icon": "Icon_Emote_Cobra_Hitfloor",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Golpe do Cobra"
+  },
+  {
+    "id": "909000074",
+    "name": "The Biker",
+    "icon": "Icon_Emote_Cobra_Bicycle",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Cachorro Louco"
+  },
+  {
+    "id": "909000075",
+    "name": "Cobra Rising",
+    "icon": "Icon_Emote_Cobra_MP40",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Ataque do Cobra"
+  },
+  {
+    "id": "909000076",
+    "name": "One-Finger Pushup",
+    "icon": "Icon_Emote_Corba_Onearm",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Pagando Flexão"
+  },
+  {
+    "id": "909000077",
+    "name": "Stage Time",
+    "icon": "Icon_Emote_Superstar",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Atitude no Palco"
+  },
+  {
+    "id": "909000078",
+    "name": "Booyah! Balloon",
+    "icon": "Icon_Emote_Cobra_Balloon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Emote Balão do Booyah!"
+  },
+  {
+    "id": "909000079",
+    "name": "More Practice",
+    "icon": "Icon_Emote_Cobra_Boxer",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Sem Desistir"
+  },
+  {
+    "id": "909000080",
+    "name": "FFWS 2021",
+    "icon": "Icon_Emote_FFCC2021",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "FFWS 2021"
+  },
+  {
+    "id": "909000081",
+    "name": "Draco's Soul",
+    "icon": "Icon_Emote_Dragon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Ataque do Dragão"
+  },
+  {
+    "id": "909000082",
+    "name": "Good Game",
+    "icon": "Icon_Emote_TwirlTiptoe",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Passinho"
+  },
+  {
+    "id": "909000083",
+    "name": "Greetings",
+    "icon": "Icon_Emote_Greeting",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Reverência"
+  },
+  {
+    "id": "909000084",
+    "name": "The Walker",
+    "icon": "Icon_Emote_ZombieRise",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Zumbizando"
+  },
+  {
+    "id": "909000085",
+    "name": "Born of Light",
+    "icon": "Icon_Emote_Thunder",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Relâmpago"
+  },
+  {
+    "id": "909000086",
+    "name": "Mythos Four",
+    "icon": "Icon_Emote_Rampage",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "As Quatro Criaturas"
+  },
+  {
+    "id": "909000087",
+    "name": "Champion Grab",
+    "icon": "Icon_Emote_Cup",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Pegada de Campeão"
+  },
+  {
+    "id": "909000088",
+    "name": "Win and Chill",
+    "icon": "Icon_Emote_Supercar_Lean",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Tirando Onda"
+  },
+  {
+    "id": "909000089",
+    "name": "Hadouken",
+    "icon": "Icon_Emote_Sutorito",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Hadouken!"
+  },
+  {
+    "id": "909000090",
+    "name": "Blood Wraith",
+    "icon": "Icon_Emote_Asianoni",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Sede de Sangue"
+  },
+  {
+    "id": "909000091",
+    "name": "Big Smash",
+    "icon": "Icon_Emote_BigWeapon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Amassando"
+  },
+  {
+    "id": "909000092",
+    "name": "Fancy Steps",
+    "icon": "Icon_Emote_DanceShuffle",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Passinho Aleatório"
+  },
+  {
+    "id": "909000093",
+    "name": "All In Control",
+    "icon": "Icon_Emote_MocoMonth_Hacker",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Tudo Sob Controle"
+  },
+  {
+    "id": "909000094",
+    "name": "Debugging",
+    "icon": "Icon_Emote_MocoMonth_UAV",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Decodificando"
+  },
+  {
+    "id": "909000095",
+    "name": "Waggor Wave",
+    "icon": "Icon_Emote_Penguin",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Passinho do Dom"
+  },
+  {
+    "id": "909000096",
+    "name": "Crazy Guitar",
+    "icon": "Icon_Emote_LegGuitar",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Guitarra no Ar"
+  },
+  {
+    "id": "909000097",
+    "name": "Poof",
+    "icon": "Icon_Emote_Poof",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Sumi na Neblina"
+  },
+  {
+    "id": "909000098",
+    "name": "The Chosen Victor",
+    "icon": "Icon_Emote_Booyahday21_Gun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Mira Vencedora"
+  },
+  {
+    "id": "909000099",
+    "name": "Challenger",
+    "icon": "Icon_Emote_Booyahday21_Provocation",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Chega Junto"
+  },
+  {
+    "id": "909000121",
+    "name": "Dribble King",
+    "icon": "Icon_Emote_Booyahday21_Basketball",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Rei do Drible"
+  },
+  {
+    "id": "909000123",
+    "name": "Mind it!",
+    "icon": "Icon_Emote_Sunglasses",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Se Liga"
+  },
+  {
+    "id": "909000124",
+    "name": "Golden Combo",
+    "icon": "Icon_Emote_Booyahday21_BooyahEmote",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Combo de Booyah"
+  },
+  {
+    "id": "909000125",
+    "name": "Sick Moves",
+    "icon": "Icon_Emote_Booyahday21_LeadEmote",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "name_pt": "Salto no Vislumbre"
+  },
+  {
+    "id": "909000126",
+    "name": "Rap Swag",
+    "icon": "Icon_Emote_Max",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Swag"
+  },
+  {
+    "id": "909000127",
+    "name": "BATTLE IN STYLE",
+    "icon": "Icon_Emote_BattleInStyle",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "SE JOGA NO ESTILO"
+  },
+  {
+    "id": "909000128",
+    "name": "Ruler's Flag",
+    "icon": "Icon_Emote_UnionWar",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Bandeira da Guilda"
+  },
+  {
+    "id": "909000129",
+    "name": "Money Throw",
+    "icon": "Icon_Emote_Jumpsuit_Bag",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Jogando Dinheiro"
+  },
+  {
+    "id": "909000130",
+    "name": "Endless Bullets",
+    "icon": "Icon_Emote_Jumpsuit_Shoot",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Balas Eternas"
+  },
+  {
+    "id": "909000131",
+    "name": "Smooth Sway",
+    "icon": "Icon_Emote_MJDance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Suavidade"
+  },
+  {
+    "id": "909000132",
+    "name": "Number 1",
+    "icon": "Icon_Emote_Falconer",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Número 1!"
+  },
+  {
+    "id": "909000133",
+    "name": "Fire Slam",
+    "icon": "Icon_Emote_Fire",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Prisão de Fogo"
+  },
+  {
+    "id": "909000134",
+    "name": "Heartbroken",
+    "icon": "Icon_Emote_THagent",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Separações"
+  },
+  {
+    "id": "909000135",
+    "name": "Rock Paper Scissors",
+    "icon": "Icon_Emote_FingerGuessing",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "name_pt": "Pedra, papel e tesoura"
+  },
+  {
+    "id": "909000136",
+    "name": "Shattered Reality",
+    "icon": "Icon_Emote_NewYearVR",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Realidade Fragmentada"
+  },
+  {
+    "id": "909000137",
+    "name": "Halo of Music",
+    "icon": "Icon_Emote_Hurricane_Red",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "name_pt": "Energia BEATz"
+  },
+  {
+    "id": "909000138",
+    "name": "Burnt BBQ",
+    "icon": "Icon_Emote_Hurricane_BBQ",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Churras Queimando"
+  },
+  {
+    "id": "909000139",
+    "name": "Switching Steps",
+    "icon": "Icon_Emote_Hurricane_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "name_pt": "Passinho do BEATz"
+  },
+  {
+    "id": "909000140",
+    "name": "Creed Slay",
+    "icon": "Icon_Emote_Hoodedkiller_Blade",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Golpe da Irmandade"
+  },
+  {
+    "id": "909000141",
+    "name": "Leap of Fail",
+    "icon": "Icon_Emote_Hoodedkiller_Jump",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "name_pt": "Salto no Buraco"
+  },
+  {
+    "id": "909000144",
+    "name": "Kungfu Tigers",
+    "icon": "Icon_Emote_Tiger",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Tigres do Kung Fu"
+  },
+  {
+    "id": "909000145",
+    "name": "Possessed Warrior",
+    "icon": "Icon_Emote_Asianoni_Drawing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "name_pt": "Guerreiro Possuído"
+  },
+  {
+    "id": "909033001",
+    "name": "Fireborn",
+    "icon": "Icon_Emote_Flamedragon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Invocação do Dragão"
+  },
+  {
+    "id": "909033002",
+    "name": "Golden Feather",
+    "icon": "Icon_Emote_Goldenwings",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Chuva de Penas"
+  },
+  {
+    "id": "909033003",
+    "name": "Come and Dance",
+    "icon": "Icon_Emote_Songkran",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Bora Dançar"
+  },
+  {
+    "id": "909033004",
+    "name": "Drop Kick",
+    "icon": "Icon_Emote_Luchalibre_Stroke",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Pontapé"
+  },
+  {
+    "id": "909033005",
+    "name": "Sit Down!",
+    "icon": "Icon_Emote_Luchalibre_Beat",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Capa de Cadeira"
+  },
+  {
+    "id": "909033006",
+    "name": "BOOYAH Sparks",
+    "icon": "Icon_Emote_Fastbreaking22",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Fagulhas de Booyah!"
+  },
+  {
+    "id": "909033007",
+    "name": "The FFWS Dance",
+    "icon": "Icon_Emote_FFWS2022",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Curtindo em Sentosa"
+  },
+  {
+    "id": "909033008",
+    "name": "Easy Peasy",
+    "icon": "Icon_Emote_Boyband_AK",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Lançando Charme"
+  },
+  {
+    "id": "909033009",
+    "name": "Winner Throw",
+    "icon": "Icon_Emote_Boyband_Poker",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Distribuindo Cards"
+  },
+  {
+    "id": "909033010",
+    "name": "Weight of Victory",
+    "icon": "Icon_Emote_FFWS2021",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB33",
+    "name_pt": "Peso da Vitória"
+  },
+  {
+    "id": "909034001",
+    "name": "Chronicle of the Sword",
+    "icon": "Icon_Emote_Rampage4_Book",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Crônicas da Espada"
+  },
+  {
+    "id": "909034002",
+    "name": "The Collapse",
+    "icon": "Icon_Emote_Rampage4_Purple",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "O Colapso"
+  },
+  {
+    "id": "909034003",
+    "name": "Flaming Groove",
+    "icon": "Icon_Emote_Rampage4_Lead",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Siga o Mestre"
+  },
+  {
+    "id": "909034004",
+    "name": "Energetic",
+    "icon": "Icon_Emote_Rampage4_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Passinho da Alegria"
+  },
+  {
+    "id": "909034005",
+    "name": "Ridicule",
+    "icon": "Icon_Emote_Ridicule",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Folgando"
+  },
+  {
+    "id": "909034006",
+    "name": "Tease Waggor",
+    "icon": "Icon_Emote_BIS_Waggor",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Emote Estilo do Dom"
+  },
+  {
+    "id": "909034007",
+    "name": "Great Conductor",
+    "icon": "Icon_Emote_BIS_Command",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Maestro"
+  },
+  {
+    "id": "909034008",
+    "name": "Fake Death",
+    "icon": "Icon_Emote_Cyberwasp",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Se Fazendo",
+    "pass": "50"
+  },
+  {
+    "id": "909034009",
+    "name": "Twerk",
+    "icon": "Icon_Emote_Rhythmgirl",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Quadradinho d'A Patroa"
+  },
+  {
+    "id": "909034010",
+    "name": "BR-Ranked Heroic Emote",
+    "icon": "Icon_Emote_BR_Heroic",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Mestre do Battle Royale"
+  },
+  {
+    "id": "909034011",
+    "name": "BR-Ranked Master Emote",
+    "icon": "Icon_Emote_BR_Master",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Elite do Battle Royale"
+  },
+  {
+    "id": "909034012",
+    "name": "CS-Ranked Heroic Emote",
+    "icon": "Icon_Emote_CS_Heroic",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Emote de Mestre (CS)"
+  },
+  {
+    "id": "909034013",
+    "name": "CS-Ranked Master Emote",
+    "icon": "Icon_Emote_CS_Master",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Emote de Elite (CS)"
+  },
+  {
+    "id": "909034014",
+    "name": "Yes, I do",
+    "icon": "Icon_Emote_Marry",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB34",
+    "name_pt": "Quer Casar"
+  },
+  {
+    "id": "909035001",
+    "name": "Free Money!",
+    "icon": "Icon_Emote_Digitaluniverse_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Tudo Grátis!"
+  },
+  {
+    "id": "909035005",
+    "name": "Victorious Eagle",
+    "icon": "Icon_Emote_CATeam",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Voo da Vitória"
+  },
+  {
+    "id": "909035006",
+    "name": "Flying Saucer",
+    "icon": "Icon_Emote_Digitaluniverse_Red",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Disco Voador"
+  },
+  {
+    "id": "909035007",
+    "name": "Weapon Magician",
+    "icon": "Icon_Emote_Digitaluniverse_Gun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Arma Mágica"
+  },
+  {
+    "id": "909035008",
+    "name": "Bobble Dance",
+    "icon": "Icon_Emote_Digitaluniverse_Purple",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Bolha Dançante"
+  },
+  {
+    "id": "909035009",
+    "name": "Weight Training",
+    "icon": "Icon_Emote_Digitaluniverse_Orange",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Puxando Ferro"
+  },
+  {
+    "id": "909035010",
+    "name": "Beautiful Love",
+    "icon": "Icon_Emote_Singers_1",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Belo Amor"
+  },
+  {
+    "id": "909035011",
+    "name": "Groove Moves",
+    "icon": "Icon_Emote_Singers_2",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Movimentos Estilosos"
+  },
+  {
+    "id": "909035012",
+    "name": "Howler's Rage",
+    "icon": "Icon_Emote_Wildfire",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Almas do Tártaro"
+  },
+  {
+    "id": "909035013",
+    "name": "Louder Please",
+    "icon": "Icon_Emote_Listen",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Fala Mais Alto"
+  },
+  {
+    "id": "909035014",
+    "name": "Ninja Stand",
+    "icon": "Icon_Emote_Fcninja",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Pose Ninja",
+    "pass": "53"
+  },
+  {
+    "id": "909035015",
+    "name": "Creator In Action",
+    "icon": "Icon_Emote_UGC",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB35",
+    "name_pt": "Criando Vitórias"
+  },
+  {
+    "id": "909036001",
+    "name": "Ghost Float",
+    "icon": "Icon_Emote_Ghost_Move",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Fantasma Flutuando"
+  },
+  {
+    "id": "909036002",
+    "name": "Shiba Surf",
+    "icon": "Icon_Emote_Shiba_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Surfe do Shiba"
+  },
+  {
+    "id": "909036003",
+    "name": "Waiter Walk",
+    "icon": "Icon_Emote_Bartendert_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Desfile do Garçom"
+  },
+  {
+    "id": "909036004",
+    "name": "Graffiti Cameraman",
+    "icon": "Icon_Emote_Griza_Camera",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Câmera Atrapalhado"
+  },
+  {
+    "id": "909036005",
+    "name": "Agile Boxer",
+    "icon": "Icon_Emote_Griza_Boxing",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Boxeador de Griza"
+  },
+  {
+    "id": "909036006",
+    "name": "Sunbathing",
+    "icon": "Icon_Emote_Sun_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Banho de Sol"
+  },
+  {
+    "id": "909036008",
+    "name": "Skateboard Swag",
+    "icon": "Icon_Emote_Skateboarding",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Movimento no Skate"
+  },
+  {
+    "id": "909036009",
+    "name": "Phantom Tamer",
+    "icon": "Icon_Emote_Ghostface",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Caçador de Fantasmas"
+  },
+  {
+    "id": "909036010",
+    "name": "The Signal",
+    "icon": "Icon_Emote_CA",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Sinalizando"
+  },
+  {
+    "id": "909036011",
+    "name": "Eternal Descent",
+    "icon": "Icon_Emote_Undead_Freeze",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Descendentes da Eternidade"
+  },
+  {
+    "id": "909036012",
+    "name": "Swaggy Dance",
+    "icon": "Icon_Emote_Party",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Dança de Estilo"
+  },
+  {
+    "id": "909036014",
+    "name": "Admire",
+    "icon": "Icon_Emote_God",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB36",
+    "name_pt": "Admirado"
+  },
+  {
+    "id": "909037001",
+    "name": "Reindeer Float",
+    "icon": "Icon_Emote_Deer_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Renas Natalinas"
+  },
+  {
+    "id": "909037002",
+    "name": "Bamboo Dance",
+    "icon": "Icon_Emote_VNSF",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Emote Adestrando Gatinhos"
+  },
+  {
+    "id": "909037003",
+    "name": "Dance of Constellation",
+    "icon": "Icon_Emote_FFWS_Meteorites",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "B de Booyah!"
+  },
+  {
+    "id": "909037004",
+    "name": "Trophy Grab",
+    "icon": "Icon_Emote_FFWS_Trophies",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "O Caneco é Nosso!"
+  },
+  {
+    "id": "909037005",
+    "name": "Starry Hands",
+    "icon": "Icon_Emote_FFWS_Dance",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Malemolência"
+  },
+  {
+    "id": "909037006",
+    "name": "Yum",
+    "icon": "Icon_Emote_Eaten_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Prato Feito"
+  },
+  {
+    "id": "909037007",
+    "name": "Happy Dancing",
+    "icon": "Icon_Emote_Hiphop",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Dançante"
+  },
+  {
+    "id": "909037008",
+    "name": "Juggle",
+    "icon": "Icon_Emote_Juggling",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Malabarista"
+  },
+  {
+    "id": "909037009",
+    "name": "Neon Sign",
+    "icon": "Icon_Emote_Cards",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Placa neon"
+  },
+  {
+    "id": "909037010",
+    "name": "Beast Tease",
+    "icon": "Icon_Emote_FFWS_Book",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Outras Dimensões"
+  },
+  {
+    "id": "909037011",
+    "name": "Drachen Tear",
+    "icon": "Icon_Emote_Dragonclaws",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Garras do Dragão"
+  },
+  {
+    "id": "909037012",
+    "name": "Clap Dance",
+    "icon": "Icon_Emote_Cdband",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB37",
+    "name_pt": "Palminhas"
+  },
+  {
+    "id": "909038001",
+    "name": "The Influencer",
+    "icon": "Icon_Emote_Piseiro",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Piseiro"
+  },
+  {
+    "id": "909038003",
+    "name": "Techno Blast",
+    "icon": "Icon_Emote_Holi",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Explosão Tecno"
+  },
+  {
+    "id": "909038004",
+    "name": "Be My Valentine",
+    "icon": "Icon_Emote_love_dance",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Namora Comigo?"
+  },
+  {
+    "id": "909038005",
+    "name": "Angry Walk",
+    "icon": "Icon_Emote_Tom_Move",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Desfilando Raiva"
+  },
+  {
+    "id": "909038006",
+    "name": "Make Some Noise",
+    "icon": "Icon_Emote_Cow",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Fazendo Barulho"
+  },
+  {
+    "id": "909038008",
+    "name": "Croco Hooray",
+    "icon": "Icon_Emote_Sticker",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Estilo Jacaré"
+  },
+  {
+    "id": "909038009",
+    "name": "Scorpio Spin",
+    "icon": "Icon_Emote_Nundu",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Arma do Escorpião!"
+  },
+  {
+    "id": "909038010",
+    "name": "Cinder Summon",
+    "icon": "Icon_Emote_Gargoyle",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Invocando Brasas"
+  },
+  {
+    "id": "909038011",
+    "name": "Shall We Dance?",
+    "icon": "Icon_Emote_DMX",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Dance com Dante"
+  },
+  {
+    "id": "909038012",
+    "name": "Achiever Flip",
+    "icon": "Icon_Emote_Goal",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Virada Cromada"
+  },
+  {
+    "id": "909038013",
+    "name": "Spin Master",
+    "icon": "Icon_Emote_yoyo",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB38",
+    "name_pt": "Quebra-Dedo"
+  },
+  {
+    "id": "909039001",
+    "name": "Festival Celebration",
+    "icon": "Icon_Emote_Fireworks",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Celebração de festival"
+  },
+  {
+    "id": "909039002",
+    "name": "Artistic Musical Dance",
+    "icon": "Icon_Emote_Kacha",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Dança Artística"
+  },
+  {
+    "id": "909039003",
+    "name": "Forward, Backward",
+    "icon": "Icon_Emote_Splashing",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Dança da Galinha"
+  },
+  {
+    "id": "909039004",
+    "name": "Scorpion Friend",
+    "icon": "Icon_Emote_Scarlet_Orange",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Escorpimano"
+  },
+  {
+    "id": "909039005",
+    "name": "Aching Power",
+    "icon": "Icon_Emote_Scarlet_Purple",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Poder Pulsante"
+  },
+  {
+    "id": "909039006",
+    "name": "Earthly Force",
+    "icon": "Icon_Emote_Growth",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Força Terrestre"
+  },
+  {
+    "id": "909039007",
+    "name": "Grenade Magic",
+    "icon": "Icon_Emote_Explosion_Orange",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Magia de Granada"
+  },
+  {
+    "id": "909039008",
+    "name": "Oh Yeah!",
+    "icon": "Icon_Emote_Explosion_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Comemoração"
+  },
+  {
+    "id": "909039009",
+    "name": "Grace On Wheels",
+    "icon": "Icon_Emote_Rollerskating",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Graciosidade",
+    "pass": "60"
+  },
+  {
+    "id": "909039010",
+    "name": "Flex",
+    "icon": "Icon_Emote_Flex",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Flexível"
+  },
+  {
+    "id": "909039011",
+    "name": "Crimson Doom",
+    "icon": "Icon_Emote_Scarlet_Evogun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Perdição Escarlate"
+  },
+  {
+    "id": "909039012",
+    "name": "Fire Beast Tamer",
+    "icon": "Icon_Emote_Firedragon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Domador de Feras"
+  },
+  {
+    "id": "909039013",
+    "name": "Crimson Tunes",
+    "icon": "Icon_Emote_Scarlet_Red",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Melodia Escarlate"
+  },
+  {
+    "id": "909039014",
+    "name": "Swaggy V-Steps",
+    "icon": "Icon_Emote_Tiktok_dance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB39",
+    "name_pt": "Dancinha Viral"
+  },
+  {
+    "id": "909040001",
+    "name": "The Chromatic Finish",
+    "icon": "Icon_Emote_car_move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Passando por Cima"
+  },
+  {
+    "id": "909040002",
+    "name": "Smash the Feather",
+    "icon": "Icon_Emote_Shuttlecock",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Raquetada"
+  },
+  {
+    "id": "909040003",
+    "name": "Sonorous Steps",
+    "icon": "Icon_Emote_Speed",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Passos audíveis"
+  },
+  {
+    "id": "909040004",
+    "name": "Fishing for Wisdom",
+    "icon": "Icon_Emote_Bioroids",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Pescando Conhecimento"
+  },
+  {
+    "id": "909040005",
+    "name": "Chromatic Pop Dance",
+    "icon": "Icon_Emote_Traphiphop22_Red",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Dança Pop"
+  },
+  {
+    "id": "909040006",
+    "name": "Chroma Twist Twist",
+    "icon": "Icon_Emote_Traphiphop22_Orange",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Caminhadinha"
+  },
+  {
+    "id": "909040008",
+    "name": "Birth of Justice",
+    "icon": "Icon_Emote_Angelik",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Justiça Alada"
+  },
+  {
+    "id": "909040009",
+    "name": "Spider-Sense",
+    "icon": "Icon_Emote_Tightguy",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Aranha"
+  },
+  {
+    "id": "909040010",
+    "name": "Chromasonic Shot",
+    "icon": "Icon_Emote_Traphiphop22",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Show de Luzes"
+  },
+  {
+    "id": "909040011",
+    "name": "Play With Thunderbolt",
+    "icon": "Icon_Emote_Raiden",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Raios e Trovões"
+  },
+  {
+    "id": "909040012",
+    "name": "6th Anniversary Celebration",
+    "icon": "Icon_Emote_Sixth",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "6º Aniversário"
+  },
+  {
+    "id": "909040013",
+    "name": "Wisdom Swing",
+    "icon": "Icon_Emote_Swing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Sabedoria em Movimento",
+    "pass": "63"
+  },
+  {
+    "id": "909040014",
+    "name": "Helicopter Shot",
+    "icon": "UI_Icon_BlackWhite_01",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB40",
+    "name_pt": "Disparo do Helicóptero"
+  },
+  {
+    "id": "909041001",
+    "name": "Thunder Breathing First Form: Thunder Flash",
+    "icon": "Icon_Emote_DS_thunder",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Thunder Breathing First Form: Thunder Flash"
+  },
+  {
+    "id": "909041002",
+    "name": "Water Breathing Sixth Form: Whirlpool",
+    "icon": "Icon_Emote_DS_water",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Water Breathing Sixth Form: Whirlpool"
+  },
+  {
+    "id": "909041003",
+    "name": "Beast Breathing Fifth Fang: Crazy Cutting",
+    "icon": "Icon_Emote_DS_wildboar",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Beast Breathing Fifth Fang: Crazy Cutting"
+  },
+  {
+    "id": "909041004",
+    "name": "Flying Ink Sword",
+    "icon": "Icon_Emote_Inkpainting",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Rastro de Redenção"
+  },
+  {
+    "id": "909041005",
+    "name": "Diz My Popblaster",
+    "icon": "Icon_Emote_Sayori",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Armado com Tecnologia"
+  },
+  {
+    "id": "909041006",
+    "name": "Dance Puppet, Dance!",
+    "icon": "Icon_Emote_Designertoys",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Dança, Boneco, Dança!",
+    "pass": "66"
+  },
+  {
+    "id": "909041007",
+    "name": "High Knees",
+    "icon": "Icon_Emote_Festival_ID",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Exercício Funcional"
+  },
+  {
+    "id": "909041008",
+    "name": "Bony Fumes",
+    "icon": "Icon_Emote_Sugarskull23",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Movimentos Transcendentais"
+  },
+  {
+    "id": "909041009",
+    "name": "Feel the Electricity",
+    "icon": "Icon_Emote_Flashinglights",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Revolta das Máquinas"
+  },
+  {
+    "id": "909041010",
+    "name": "Whac-A-Cotton",
+    "icon": "Icon_Emote_Rabbit",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Sem Brincadeirinha"
+  },
+  {
+    "id": "909041011",
+    "name": "Honorable Mention Emote",
+    "icon": "Icon_Emote_Reputation",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Menção de Honra"
+  },
+  {
+    "id": "909041012",
+    "name": "BR-Ranked Grandmaster Emote",
+    "icon": "Icon_Emote_41brmaster",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Desafiante do BR Ranqueado"
+  },
+  {
+    "id": "909041013",
+    "name": "CS-Ranked Grandmaster Emote",
+    "icon": "Icon_Emote_41CSmaster",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Desafiante do CS Ranqueado"
+  },
+  {
+    "id": "909041014",
+    "name": "Monster Clubbing",
+    "icon": "Icon_Emote_Monsterjacket",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Passo do Monstrinho"
+  },
+  {
+    "id": "909041015",
+    "name": "Basudara Dance",
+    "icon": "Icon_Emote_Windah",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB41",
+    "name_pt": "Dança Basudara"
+  },
+  {
+    "id": "909042001",
+    "name": "Stir-Fry Frostfire",
+    "icon": "Icon_Emote_Theboy_Red",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Tá Frito!"
+  },
+  {
+    "id": "909042002",
+    "name": "Money Rain",
+    "icon": "Icon_Emote_Jumpsuit_Ghosts",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Dançando na Chuva"
+  },
+  {
+    "id": "909042003",
+    "name": "Frostfire's Calling",
+    "icon": "Icon_Emote_Theboy_book",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "O Chamado do Fogo"
+  },
+  {
+    "id": "909042004",
+    "name": "Stomping Foot",
+    "icon": "Icon_Emote_Getangry",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Fazendo Birra"
+  },
+  {
+    "id": "909042005",
+    "name": "This Way",
+    "icon": "Icon_Emote_Provokewaving",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Assim que se Faz"
+  },
+  {
+    "id": "909042006",
+    "name": "Excellent Service",
+    "icon": "Icon_Emote_Voltage",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Em Choque",
+    "pass": "68"
+  },
+  {
+    "id": "909042007",
+    "name": "\"100\" Gloo Sculpture",
+    "icon": "Icon_Emote_Level100",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Escultura de Vitórias"
+  },
+  {
+    "id": "909042008",
+    "name": "Ever Seen a Real Tiger?",
+    "icon": "Icon_Emote_Evotiger",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Tigrão"
+  },
+  {
+    "id": "909042009",
+    "name": "Celebration Schuss",
+    "icon": "Icon_Emote_Winterfest23",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Esquiando"
+  },
+  {
+    "id": "909042011",
+    "name": "Dawn Voyage Emote",
+    "icon": "Icon_Emote_Allseason",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Tô de Olho!"
+  },
+  {
+    "id": "909042012",
+    "name": "Lamborghini Ride",
+    "icon": "Icon_Emote_Bull",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Carona de Lamborghini"
+  },
+  {
+    "id": "909042013",
+    "name": "Hello! Frostfire Style",
+    "icon": "Icon_Emote_Theboy_Red_Double",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Tá Pegando Fogo, Bicho!"
+  },
+  {
+    "id": "909042016",
+    "name": "Hand Grooves",
+    "icon": "Icon_Emote_TH_Handdance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Dança da Mãozinha"
+  },
+  {
+    "id": "909042017",
+    "name": "Free Fire Toiletman",
+    "icon": "Icon_Emote_Toiletman",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "O Esgoteiro"
+  },
+  {
+    "id": "909042018",
+    "name": "Kemusan",
+    "icon": "Icon_Emote_VN_Ninjadance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB42",
+    "name_pt": "Kemusan"
+  },
+  {
+    "id": "909043001",
+    "name": "Ribbit Rider",
+    "icon": "Icon_Emote_Frog",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Peão de Sapeiro",
+    "pass": "70"
+  },
+  {
+    "id": "909043002",
+    "name": "Inner Self Mastery",
+    "icon": "Icon_Emote_Evilbehind",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Dominando o Mal"
+  },
+  {
+    "id": "909043003",
+    "name": "Emperor's Treasure Machine",
+    "icon": "Icon_Emote_Aprilfool24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Trono A Todo Vapor"
+  },
+  {
+    "id": "909043004",
+    "name": "Why So Chaos?",
+    "icon": "Icon_Emote_Chaos",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Caos pra quê?"
+  },
+  {
+    "id": "909043005",
+    "name": "Huge Feast",
+    "icon": "Icon_Emote_Feaston",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Banquetão"
+  },
+  {
+    "id": "909043006",
+    "name": "Color Burst",
+    "icon": "Icon_Emote_Colorfest24",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Explosão Colorida"
+  },
+  {
+    "id": "909043007",
+    "name": "Dragon Swipe",
+    "icon": "Icon_Emote_VNnewyear24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Faxina Espiritual"
+  },
+  {
+    "id": "909043008",
+    "name": "Samba",
+    "icon": "Icon_Emote_Samba",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Samba"
+  },
+  {
+    "id": "909043009",
+    "name": "Speed Summon",
+    "icon": "Icon_Emote_Waterfest24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Só no Apavoro"
+  },
+  {
+    "id": "909043010",
+    "name": "What a Match",
+    "icon": "Icon_Emote_Valentine24_Cooperate",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Casal 20"
+  },
+  {
+    "id": "909043013",
+    "name": "What a Pair",
+    "icon": "Icon_Emote_Valentine24_Uncooperative",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB43",
+    "name_pt": "Se juntos já causam..."
+  },
+  {
+    "id": "909044001",
+    "name": "Byte Mounting",
+    "icon": "Icon_Emote_Videogame",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Tá de Parabéns, viu?",
+    "pass": "72"
+  },
+  {
+    "id": "909044002",
+    "name": "The Unicyclist",
+    "icon": "Icon_Emote_Monocycle",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Monociclista"
+  },
+  {
+    "id": "909044003",
+    "name": "Basket Rafting",
+    "icon": "Icon_Emote_Dopamine",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Rio Bravo"
+  },
+  {
+    "id": "909044004",
+    "name": "Happy Lamb Shouldering",
+    "icon": "Icon_Emote_Festivalme_24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Meu Cabritinho"
+  },
+  {
+    "id": "909044005",
+    "name": "Paradox of Enlightenment",
+    "icon": "Icon_Emote_Persona_Book",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Paradoxo da Iluminação"
+  },
+  {
+    "id": "909044006",
+    "name": "Harmonious Paradox",
+    "icon": "Icon_Emote_Persona_Double",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Paradoxo Harmonioso"
+  },
+  {
+    "id": "909044007",
+    "name": "Raise Your Thumb!",
+    "icon": "Icon_Emote_Memes1",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "É Ritmo de Joinha!"
+  },
+  {
+    "id": "909044008",
+    "name": "Clap Your Hands!",
+    "icon": "Icon_Emote_Memes2",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Montaria Retrô"
+  },
+  {
+    "id": "909044009",
+    "name": "Done Deal",
+    "icon": "Icon_Emote_BR_Vapo",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Vapo"
+  },
+  {
+    "id": "909044010",
+    "name": "Starcatcher Academy",
+    "icon": "Icon_Emote_School_TH",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Estrelinha do Colégio"
+  },
+  {
+    "id": "909044011",
+    "name": "Little Paradox Wings",
+    "icon": "Icon_Emote_Persona",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Asas Paradoxo"
+  },
+  {
+    "id": "909044012",
+    "name": "Zombified!",
+    "icon": "Icon_Emote_Zombie24",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Zumba do Zumbi"
+  },
+  {
+    "id": "909044015",
+    "name": "The Final Paradox",
+    "icon": "Icon_Emote_Persona_Katana",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "O Paradoxo Final"
+  },
+  {
+    "id": "909044016",
+    "name": "Honk Up!",
+    "icon": "Icon_Emote_Basuri",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB44",
+    "name_pt": "Buzinada!"
+  },
+  {
+    "id": "909045001",
+    "name": "Arrival of the Cyclone",
+    "icon": "Icon_Emote_Spirit24_Gun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Chegada do Ciclone"
+  },
+  {
+    "id": "909045002",
+    "name": "Spring Rocker",
+    "icon": "Icon_Emote_Spirit24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Dragão de Mola"
+  },
+  {
+    "id": "909045003",
+    "name": "Giddy Up!",
+    "icon": "Icon_Emote_Spirit24_Travel",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Eguinha Pocotó"
+  },
+  {
+    "id": "909045004",
+    "name": "The Goosy Dance",
+    "icon": "Icon_Emote_Goose",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Pataquada",
+    "pass": "74"
+  },
+  {
+    "id": "909045005",
+    "name": "Captain Victor",
+    "icon": "Icon_Emote_Octopus",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Canhão Pirata",
+    "pass": "76"
+  },
+  {
+    "id": "909045006",
+    "name": "You Know I'm Good",
+    "icon": "Icon_Emote_Meme3",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Boa, gostei!"
+  },
+  {
+    "id": "909045007",
+    "name": "Step Step",
+    "icon": "Icon_Emote_Meme4",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Pra lá, pra cá"
+  },
+  {
+    "id": "909045008",
+    "name": "Super Yay",
+    "icon": "Icon_Emote_UMA",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Dança Kawaii"
+  },
+  {
+    "id": "909045009",
+    "name": "Moonwalk",
+    "icon": "Icon_Emote_IN_Moonwalk",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Moonwalk"
+  },
+  {
+    "id": "909045010",
+    "name": "A Flower Salute",
+    "icon": "Icon_Emote_IN_Salute",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Continência da Rosa"
+  },
+  {
+    "id": "909045011",
+    "name": "Little Foxy Run",
+    "icon": "Icon_Emote_VN_Fox",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Voltaqui, Raposa!"
+  },
+  {
+    "id": "909045012",
+    "name": "Mr. Waggor's Seesaw",
+    "icon": "Icon_Emote_Spirit24_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Gangorra de Dom Pisante"
+  },
+  {
+    "id": "909045015",
+    "name": "Floating Meditation",
+    "icon": "Icon_Emote_BRrapper",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Meditação 085"
+  },
+  {
+    "id": "909045016",
+    "name": "Naatu Naatu",
+    "icon": "Icon_Emote_Folkdance",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Naatu Naatu"
+  },
+  {
+    "id": "909045017",
+    "name": "Champion's Walk",
+    "icon": "Icon_Emote_MVPDance",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB45",
+    "name_pt": "Passinho Campeão"
+  },
+  {
+    "id": "909046001",
+    "name": "Aura Boarder",
+    "icon": "Icon_Emote_Yinyang24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Voo Dracônico"
+  },
+  {
+    "id": "909046002",
+    "name": "Who's the Booyah Champ!",
+    "icon": "Icon_Emote_Booyahday24",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "É Campeão! BOOYAH!"
+  },
+  {
+    "id": "909046003",
+    "name": "Controlled Combustion",
+    "icon": "Icon_Emote_Microwaves",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Segura esse fogo!",
+    "pass": "78"
+  },
+  {
+    "id": "909046004",
+    "name": "Cheers to Victory!",
+    "icon": "Icon_Emote_Drinkcola",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Tim tim!"
+  },
+  {
+    "id": "909046005",
+    "name": "Shoe Shining",
+    "icon": "Icon_Emote_Football_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Golaço"
+  },
+  {
+    "id": "909046006",
+    "name": "Gunspinning",
+    "icon": "Icon_Emote_Gunspin",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Destreza do Soldado"
+  },
+  {
+    "id": "909046007",
+    "name": "Crowd Pleaser",
+    "icon": "Icon_Emote_Meme5",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Respeitável Público"
+  },
+  {
+    "id": "909046008",
+    "name": "No Sweat",
+    "icon": "Icon_Emote_Meme6",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Nem suei"
+  },
+  {
+    "id": "909046009",
+    "name": "Magma Quake",
+    "icon": "Icon_Emote_Lightfest24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Instrumento Poderoso"
+  },
+  {
+    "id": "909046010",
+    "name": "Max Firepower",
+    "icon": "Icon_Emote_Strafe",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Artilharia Extrema"
+  },
+  {
+    "id": "909046011",
+    "name": "Can't Touch This",
+    "icon": "Icon_Emote_School_VN",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Nem relou!"
+  },
+  {
+    "id": "909046012",
+    "name": "Firestarter",
+    "icon": "Icon_Emote_Sugarskull24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Caveira Incendiária"
+  },
+  {
+    "id": "909046013",
+    "name": "FFWS Flag Flair",
+    "icon": "Icon_Emote_BRFFWS",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Bandeirão FFWS"
+  },
+  {
+    "id": "909046014",
+    "name": "Beat Drop",
+    "icon": "Icon_Emote_BRrapper_Orange",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Acende o Drop"
+  },
+  {
+    "id": "909046015",
+    "name": "Isagi's Spatial Awareness",
+    "icon": "Icon_Emote_FB_Black",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Inteligência Espacial do Isagi"
+  },
+  {
+    "id": "909046016",
+    "name": "Nagi's Trapping",
+    "icon": "Icon_Emote_FB_White",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Armadilha do Nagi"
+  },
+  {
+    "id": "909046017",
+    "name": "Soaring Up",
+    "icon": "Icon_Emote_Stardance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB46",
+    "name_pt": "Dança em Voga"
+  },
+  {
+    "id": "909047001",
+    "name": "I Won't Bow Down",
+    "icon": "Icon_Emote_Woodcrafter",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Eu não vou me curvar"
+  },
+  {
+    "id": "909047002",
+    "name": "Aurora Iridescence",
+    "icon": "Icon_Emote_Aurora_Duo",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Luzes Boreais"
+  },
+  {
+    "id": "909047003",
+    "name": "Couch For Two",
+    "icon": "Icon_Emote_Valentine25_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Namoradeira"
+  },
+  {
+    "id": "909047004",
+    "name": "Flutter Dash",
+    "icon": "Icon_Emote_Angelic_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Voo Angelical"
+  },
+  {
+    "id": "909047005",
+    "name": "Slippery Throne",
+    "icon": "Icon_Emote_Aurora",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Acidente no Trono"
+  },
+  {
+    "id": "909047006",
+    "name": "Acceptance Speech",
+    "icon": "Icon_Emote_Superstar24",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Gradicido pelo Troféu"
+  },
+  {
+    "id": "909047007",
+    "name": "Love Me, Love Me Not",
+    "icon": "Icon_Emote_Valentine25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Bem me quer, Mal me quer"
+  },
+  {
+    "id": "909047008",
+    "name": "Scissor Savvy",
+    "icon": "Icon_Emote_Tailor",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Teje Inaugurado",
+    "pass": "80"
+  },
+  {
+    "id": "909047009",
+    "name": "The Thinker",
+    "icon": "Icon_Emote_Equation",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "O Pensador"
+  },
+  {
+    "id": "909047010",
+    "name": "Match Countdown",
+    "icon": "Icon_Emote_Catdog",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "3, 2, 1... Vitória!"
+  },
+  {
+    "id": "909047011",
+    "name": "Hip Twists",
+    "icon": "Icon_Emote_Winterfest25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Susuper Dancinha"
+  },
+  {
+    "id": "909047012",
+    "name": "JKT48 No.1",
+    "icon": "Icon_Emote_POPID_47",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Dança JKT48"
+  },
+  {
+    "id": "909047013",
+    "name": "Stormy Ascent",
+    "icon": "Icon_Emote_Allseason25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Trilha Tempestuosa"
+  },
+  {
+    "id": "909047015",
+    "name": "Rasengan",
+    "icon": "Icon_Emote_NB_Ball",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Rasengan"
+  },
+  {
+    "id": "909047016",
+    "name": "A Thousand Years of Death",
+    "icon": "Icon_Emote_NB_Sennen",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Mil Anos de Morte"
+  },
+  {
+    "id": "909047017",
+    "name": "Ninja Sign",
+    "icon": "Icon_Emote_NB_Gesture",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Selo Ninja"
+  },
+  {
+    "id": "909047018",
+    "name": "Ninja Run",
+    "icon": "Icon_Emote_NB_Run",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Rushada Ninja"
+  },
+  {
+    "id": "909047019",
+    "name": "Clone Jutsu",
+    "icon": "Icon_Emote_NB_Shadow",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB47",
+    "name_pt": "Jutsu de Transformação"
+  },
+  {
+    "id": "909048001",
+    "name": "To the Rescue",
+    "icon": "Icon_Emote_Cityhero_Duo",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Ao resgate!"
+  },
+  {
+    "id": "909048002",
+    "name": "Midnight Peruse",
+    "icon": "Icon_Emote_Cityhero_Book",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Invocação Noturna"
+  },
+  {
+    "id": "909048003",
+    "name": "Guitar Groove",
+    "icon": "Icon_Emote_Rainforest_1",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Guitarrista"
+  },
+  {
+    "id": "909048004",
+    "name": "Keyboard Player",
+    "icon": "Icon_Emote_Rainforest_2",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Tecladista"
+  },
+  {
+    "id": "909048005",
+    "name": "On Drums",
+    "icon": "Icon_Emote_Rainforest_3",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Baterista"
+  },
+  {
+    "id": "909048006",
+    "name": "Chac-Chac",
+    "icon": "Icon_Emote_Rainforest_4",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Maracás"
+  },
+  {
+    "id": "909048007",
+    "name": "Pillow Fight",
+    "icon": "Icon_Emote_Sleepcoat",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Bora mimir?"
+  },
+  {
+    "id": "909048008",
+    "name": "Target Practice",
+    "icon": "Icon_Emote_Ninja_Mask",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Lança Shuriken"
+  },
+  {
+    "id": "909048009",
+    "name": "Goofy Camel",
+    "icon": "Icon_Emote_Fastbreaking_Dune",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Na corcova do camelo"
+  },
+  {
+    "id": "909048010",
+    "name": "Hit a Six!",
+    "icon": "Icon_Emote_Cricke25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Rebati tudo!"
+  },
+  {
+    "id": "909048011",
+    "name": "Flag Summon",
+    "icon": "Icon_Emote_Blackdress",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Invoque a Bandeira!"
+  },
+  {
+    "id": "909048012",
+    "name": "Swift Steps",
+    "icon": "Icon_Emote_Waterfest25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Passinho da Nova Geração"
+  },
+  {
+    "id": "909048013",
+    "name": "Carnival Funk",
+    "icon": "Icon_Emote_Carnival25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Jogadinha"
+  },
+  {
+    "id": "909048014",
+    "name": "Slurp slurp!",
+    "icon": "Icon_Emote_Cupnoodle",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Hora do Lámen!",
+    "pass": "84"
+  },
+  {
+    "id": "909048015",
+    "name": "Sketching",
+    "icon": "Icon_Emote_Comic24",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Fazendo arte",
+    "pass": "82"
+  },
+  {
+    "id": "909048016",
+    "name": "Half-Time Chilling",
+    "icon": "Icon_Emote_Football25_ID_Chair",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Drible Cansado"
+  },
+  {
+    "id": "909048017",
+    "name": "Throw-In",
+    "icon": "Icon_Emote_Football25_ID_Throw",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Lá vai a bola!"
+  },
+  {
+    "id": "909048018",
+    "name": "Bailalo Rocky",
+    "icon": "Icon_Emote_SG_Rocky",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB48",
+    "name_pt": "Bailalo Rocky"
+  },
+  {
+    "id": "909049001",
+    "name": "Nailoong Time!",
+    "icon": "Icon_Emote_BabyDragon",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Nailoong tá na área!"
+  },
+  {
+    "id": "909049002",
+    "name": "Hand Raise",
+    "icon": "Icon_Emote_NewSemester25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Levanta a mão!"
+  },
+  {
+    "id": "909049003",
+    "name": "Kick It Up",
+    "icon": "Icon_Emote_Samurai_ME",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "É no balanço e no chute!"
+  },
+  {
+    "id": "909049004",
+    "name": "Slap and Twist",
+    "icon": "Icon_Emote_VN_Influencer",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Desenrola, bate..."
+  },
+  {
+    "id": "909049005",
+    "name": "Side Wiggle",
+    "icon": "Icon_Emote_Local25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Joga de Ladinho"
+  },
+  {
+    "id": "909049006",
+    "name": "Creation Days",
+    "icon": "Icon_Emote_Eighth_Career",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Início da Jornada"
+  },
+  {
+    "id": "909049007",
+    "name": "Raining Coins",
+    "icon": "Icon_Emote_Eighth_Leading",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Chuva de Moeda"
+  },
+  {
+    "id": "909049008",
+    "name": "Clap Clap Hooray",
+    "icon": "Icon_Emote_Clapping_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Toque da Tropa!"
+  },
+  {
+    "id": "909049009",
+    "name": "Infinite Loops",
+    "icon": "Icon_Emote_Eighth_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Círculos Festivos"
+  },
+  {
+    "id": "909049010",
+    "name": "P90 Surfer",
+    "icon": "Icon_Emote_Jumpsuit25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "De Carona na P90"
+  },
+  {
+    "id": "909049011",
+    "name": "Boxing Machine",
+    "icon": "Icon_Emote_BoxingTest",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Máquina de Boxe"
+  },
+  {
+    "id": "909049012",
+    "name": "Open Fire",
+    "icon": "Icon_Emote_MultiStrafe",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Invocação das Armas"
+  },
+  {
+    "id": "909049013",
+    "name": "Comic Barf",
+    "icon": "Icon_Emote_VomitingRainbows",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Indigestão Colorida"
+  },
+  {
+    "id": "909049014",
+    "name": "Drive-By",
+    "icon": "Icon_Emote_Eighth_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Dança da Motinha"
+  },
+  {
+    "id": "909049015",
+    "name": "Pedal on the Metal",
+    "icon": "Icon_Emote_MimeDriving",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Se eu tivesse um carro..."
+  },
+  {
+    "id": "909049016",
+    "name": "Spear Spin",
+    "icon": "Icon_Emote_Sparta",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Ninguém me flecha!",
+    "pass": "85"
+  },
+  {
+    "id": "909049017",
+    "name": "Flag Wave",
+    "icon": "Icon_Emote_Guild25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Orgulho da Guilda"
+  },
+  {
+    "id": "909049018",
+    "name": "Disco Dazzle",
+    "icon": "Icon_Emote_Club",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Hype do DJ"
+  },
+  {
+    "id": "909049019",
+    "name": "Squat Challenge",
+    "icon": "Icon_Emote_Pony",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Agacha e mexe!"
+  },
+  {
+    "id": "909049020",
+    "name": "Winning Goal",
+    "icon": "Icon_Emote_Football25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Gol da vitória"
+  },
+  {
+    "id": "909049021",
+    "name": "Head High",
+    "icon": "Icon_Emote_Football25_ID_Chin",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB49",
+    "name_pt": "Cabeça Erguida"
+  },
+  {
+    "id": "909050002",
+    "name": "Reanimation Jutsu",
+    "icon": "Icon_Emote_2NBCT_Revive",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Jutsu de Reencarnação"
+  },
+  {
+    "id": "909050003",
+    "name": "The Final Battle",
+    "icon": "Icon_Emote_2NBCT_Final_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "A Batalha Final"
+  },
+  {
+    "id": "909050004",
+    "name": "Forehead Poke",
+    "icon": "Icon_Emote_2NBCT_Forehead",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Gesto Final"
+  },
+  {
+    "id": "909050005",
+    "name": "Fire Style: Fireball Jutsu",
+    "icon": "Icon_Emote_2NBCT_Fire",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Estilo Fogo: Jutsu Bola de Fogo"
+  },
+  {
+    "id": "909050006",
+    "name": "Flying Raijin Jutsu",
+    "icon": "Icon_Emote_2NBCT_Dad",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Jutsu do Deus Voador do Trovão"
+  },
+  {
+    "id": "909050008",
+    "name": "Hammer Slam",
+    "icon": "Icon_Emote_SL_Hammer",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Martela o Martelão"
+  },
+  {
+    "id": "909050009",
+    "name": "The Rings",
+    "icon": "Icon_Emote_SL_Ring",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Poder dos Anéis"
+  },
+  {
+    "id": "909050010",
+    "name": "Drum Twirl",
+    "icon": "Icon_Emote_Festival_PK25_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Gira na Bateria"
+  },
+  {
+    "id": "909050011",
+    "name": "Bunny Action",
+    "icon": "Icon_Emote_Easterrabbit_2025_Scout",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Coelhocóptero"
+  },
+  {
+    "id": "909050012",
+    "name": "Broom Swoosh",
+    "icon": "Icon_Emote_VA_Moving",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Voo de Vassoura"
+  },
+  {
+    "id": "909050013",
+    "name": "Blade from Heart",
+    "icon": "Icon_Emote_Zombieduo_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Ressurgir da Espada"
+  },
+  {
+    "id": "909050014",
+    "name": "Map Read",
+    "icon": "Icon_Emote_Readmap",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Lendo mapa"
+  },
+  {
+    "id": "909050015",
+    "name": "Tomato Smash",
+    "icon": "Icon_Emote_Tomato",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Tomatada"
+  },
+  {
+    "id": "909050016",
+    "name": "Tactical Moveout",
+    "icon": "Icon_Emote_Tactical",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Estratégia de Fuga"
+  },
+  {
+    "id": "909050017",
+    "name": "Bunny Wiggle",
+    "icon": "Icon_Emote_Easterrabbit_2025",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Coelhinho, se eu fosse como tu..."
+  },
+  {
+    "id": "909050018",
+    "name": "Flaming Heart",
+    "icon": "Icon_Emote_Funzombie",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Domínio das Chamas",
+    "pass": "87"
+  },
+  {
+    "id": "909050019",
+    "name": "Rain or Shine",
+    "icon": "Icon_Emote_Cloudyday",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Chuva ou Sol?",
+    "pass": "89"
+  },
+  {
+    "id": "909050020",
+    "name": "Sholay",
+    "icon": "Icon_Emote_RevengeMovie",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Sholay"
+  },
+  {
+    "id": "909050021",
+    "name": "Peak Points",
+    "icon": "Icon_Emote_CSPeakTournament",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Pontos do Auge"
+  },
+  {
+    "id": "909050026",
+    "name": "Aura Farming",
+    "icon": "Icon_Emote_Boatdance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Energia pro time"
+  },
+  {
+    "id": "909050027",
+    "name": "Boat Race Aura",
+    "icon": "Icon_Emote_Boatdance_Head_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Aura do Barco"
+  },
+  {
+    "id": "909050028",
+    "name": "Boat Race Rowing",
+    "icon": "Icon_Emote_Boatdance_Body_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Remada do Barco"
+  },
+  {
+    "id": "909050029",
+    "name": "Marching",
+    "icon": "Icon_Emote_VN_Marching",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Marchando"
+  },
+  {
+    "id": "909050030",
+    "name": "Low Rider",
+    "icon": "Icon_Emote_TH_Stoopdance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB50",
+    "name_pt": "Passinho Rebaixado"
+  },
+  {
+    "id": "909051001",
+    "name": "Prismatic Flight",
+    "icon": "Icon_Emote_NewAngelic_Moving",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Voo Prismático"
+  },
+  {
+    "id": "909051002",
+    "name": "Gather Around",
+    "icon": "Icon_Emote_Dreamland_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Carrossel de natal"
+  },
+  {
+    "id": "909051003",
+    "name": "Rain of Spikes",
+    "icon": "Icon_Emote_Dreamland_Evogun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Chuva de Espinhos"
+  },
+  {
+    "id": "909051004",
+    "name": "Shower Time",
+    "icon": "Icon_Emote_Bathtub",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Hora do banho"
+  },
+  {
+    "id": "909051005",
+    "name": "Boss Energy",
+    "icon": "Icon_Emote_Swagger_Moving",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Patrão tá na área!"
+  },
+  {
+    "id": "909051006",
+    "name": "Double Holster",
+    "icon": "Icon_Emote_Meme7",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Saque Duplo"
+  },
+  {
+    "id": "909051007",
+    "name": "Finger Guns",
+    "icon": "Icon_Emote_Meme8",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Arminha de dedo"
+  },
+  {
+    "id": "909051008",
+    "name": "Shivering",
+    "icon": "Icon_Emote_Dreamland_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Que friaca!"
+  },
+  {
+    "id": "909051009",
+    "name": "Triple Shush",
+    "icon": "Icon_Emote_Seagames",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Silêncio!!"
+  },
+  {
+    "id": "909051010",
+    "name": "On Motorbike",
+    "icon": "Icon_Emote_IDMotorbike_Moving",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Moto ou bike?"
+  },
+  {
+    "id": "909051011",
+    "name": "Twisted Stare",
+    "icon": "Icon_Emote_Sugarskull25",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Torcida Sinistra"
+  },
+  {
+    "id": "909051012",
+    "name": "Celestial Shot",
+    "icon": "Icon_Emote_Sagittarius25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Disparo Estelar",
+    "pass": "91"
+  },
+  {
+    "id": "909051013",
+    "name": "Red Petals",
+    "icon": "Icon_Emote_Redhat25",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Pétalas Vermelhas",
+    "pass": "92"
+  },
+  {
+    "id": "909051014",
+    "name": "Puffer Ride",
+    "icon": "Icon_Emote_TH_KOL25_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Êia, Baiacu!"
+  },
+  {
+    "id": "909051015",
+    "name": "Can't Stop Laughing",
+    "icon": "Icon_Emote_TH_KOL25_Laugh",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Crise de Riso"
+  },
+  {
+    "id": "909051016",
+    "name": "Crowned Glory Emote",
+    "icon": "Icon_Emote_Allseason26",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Ascensão Imperial"
+  },
+  {
+    "id": "909051017",
+    "name": "Choppy Co-op",
+    "icon": "Icon_Emote_CC_Duo_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Bora jogar Choppy?"
+  },
+  {
+    "id": "909051018",
+    "name": "Gather Around",
+    "icon": "Icon_Emote_Dreamland_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Carrossel de natal"
+  },
+  {
+    "id": "909051019",
+    "name": "Gather Around",
+    "icon": "Icon_Emote_Dreamland_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Carrossel de natal"
+  },
+  {
+    "id": "909051020",
+    "name": "Gather Around",
+    "icon": "Icon_Emote_Dreamland_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Carrossel de natal"
+  },
+  {
+    "id": "909051021",
+    "name": "Passinho",
+    "icon": "Icon_Emote_BR_Passinho",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Passinho Brega Funk"
+  },
+  {
+    "id": "909051022",
+    "name": "All Good, Boss!",
+    "icon": "Icon_Emote_Security_VN",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "Tá tudo certo, chefe!"
+  },
+  {
+    "id": "909051023",
+    "name": "67",
+    "icon": "Icon_Emote_NA_67",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB51",
+    "name_pt": "67"
+  },
+  {
+    "id": "909052001",
+    "name": "TV Time",
+    "icon": "Icon_Emote_IIV_CT_Pink_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Hora do Treino"
+  },
+  {
+    "id": "909052002",
+    "name": "Cursed Technique Reversal: Red",
+    "icon": "Icon_Emote_IIV_CT_White_Off",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Reversão do feitiço: Vermelho"
+  },
+  {
+    "id": "909052003",
+    "name": "Straw Doll Technique",
+    "icon": "Icon_Emote_IIV_CT_Rose",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Feitiço do Boneco de Palha"
+  },
+  {
+    "id": "909052004",
+    "name": "Ten Shadows Technique: Totality",
+    "icon": "Icon_Emote_IIV_CT_Black",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Técnica das Dez Sombras: Totalidade"
+  },
+  {
+    "id": "909052005",
+    "name": "Catchy Melody",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Aquele dos Piratas"
+  },
+  {
+    "id": "909052006",
+    "name": "Farewell",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Eu consegui!"
+  },
+  {
+    "id": "909052007",
+    "name": "Panther Move",
+    "icon": "Icon_Emote_Carnival26_Free",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Bonde da Jaguarette"
+  },
+  {
+    "id": "909052008",
+    "name": "Heart Attack!",
+    "icon": "Icon_Emote_Valentine26_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Ataque de coração!"
+  },
+  {
+    "id": "909052009",
+    "name": "Umbrella Go",
+    "icon": "Icon_Emote_Aprilfool26_Moving",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Bora de Guarda-chuva!"
+  },
+  {
+    "id": "909052010",
+    "name": "T-pose",
+    "icon": "Icon_Emote_Buggy_Tpose",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Pose do T"
+  },
+  {
+    "id": "909052011",
+    "name": "Laggy",
+    "icon": "Icon_Emote_Buggy_Glitchy",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Tá travando!"
+  },
+  {
+    "id": "909052012",
+    "name": "Treasure Rain",
+    "icon": "Icon_Emote_Treasure26",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Chuva de Tesouro",
+    "pass": "94"
+  },
+  {
+    "id": "909052013",
+    "name": "King of Gold",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "O tesouro é nosso!"
+  },
+  {
+    "id": "909052014",
+    "name": "King of Gold",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "O tesouro é nosso!"
+  },
+  {
+    "id": "909052015",
+    "name": "King of Gold",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "O tesouro é nosso!"
+  },
+  {
+    "id": "909052016",
+    "name": "King of Gold",
+    "icon": "Icon_Emote_Fastbreaking_Treasure_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "O tesouro é nosso!"
+  },
+  {
+    "id": "909052021",
+    "name": "Husky Dance",
+    "icon": "Icon_Emote_Huskydance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB52",
+    "name_pt": "Dança do Husky"
+  },
+  {
+    "id": "909053001",
+    "name": "Victory Trumpet",
+    "icon": "Icon_Emote_BR_Soccer",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Vuvuzela Torando"
+  },
+  {
+    "id": "909053002",
+    "name": "Eclipse Creation",
+    "icon": "Icon_Emote_Eclipse_Duo",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Criação do Eclipse"
+  },
+  {
+    "id": "909053003",
+    "name": "Power of Eclipse",
+    "icon": "Icon_Emote_Eclipse",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Fusão Celestial"
+  },
+  {
+    "id": "909053004",
+    "name": "Undersea Wriggle",
+    "icon": "Icon_Emote_Bluetears",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Peixe fora d'água"
+  },
+  {
+    "id": "909053005",
+    "name": "Reverse Penalty!",
+    "icon": "Icon_Emote_Worldcup25_Random_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Expulsa esse juiz!"
+  },
+  {
+    "id": "909053006",
+    "name": "Winning Kick",
+    "icon": "Icon_Emote_Worldcup25_Goal",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Chute da Vitória"
+  },
+  {
+    "id": "909053007",
+    "name": "Keepie Uppie",
+    "icon": "Icon_Emote_Worldcup25_Classic",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Domínio da Bola"
+  },
+  {
+    "id": "909053008",
+    "name": "VAR Review",
+    "icon": "Icon_Emote_Worldcup25_VAR",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Olha no VAR!"
+  },
+  {
+    "id": "909053009",
+    "name": "Sweeten Up",
+    "icon": "Icon_Emote_Magical_Camera",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "É essa fadinha!"
+  },
+  {
+    "id": "909053010",
+    "name": "Sculpted Stills",
+    "icon": "Icon_Emote_Sketch",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Estátua Viva",
+    "pass": "96"
+  },
+  {
+    "id": "909053011",
+    "name": "Multitasking",
+    "icon": "Icon_Emote_GB_CT_Star",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Embaixadinha + Frifas"
+  },
+  {
+    "id": "909053013",
+    "name": "Reverse Penalty!",
+    "icon": "Icon_Emote_Worldcup25_Random_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Expulsa esse juiz!"
+  },
+  {
+    "id": "909053014",
+    "name": "Reverse Penalty!",
+    "icon": "Icon_Emote_Worldcup25_Random_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Expulsa esse juiz!"
+  },
+  {
+    "id": "909053015",
+    "name": "Reverse Penalty!",
+    "icon": "Icon_Emote_Worldcup25_Random_Cooperate",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB53",
+    "name_pt": "Expulsa esse juiz!"
+  },
+  {
+    "id": "909054001",
+    "name": "The Champion Is Here!",
+    "icon": "Icon_Emote_Luchalibre2026_Info",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "O campeão tá aqui!"
+  },
+  {
+    "id": "909054002",
+    "name": "Mark of Honor",
+    "icon": "Icon_Emote_HI_Depend26",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Marca de Honra"
+  },
+  {
+    "id": "909054003",
+    "name": "Left Right Sway",
+    "icon": "Icon_Emote_PK_Depend26",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Pra lá e pra cá"
+  },
+  {
+    "id": "909054004",
+    "name": "Phoenix Flourish",
+    "icon": "Icon_Emote_Ninth_Evogun_Camera",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Renascer da Fênix"
+  },
+  {
+    "id": "909054005",
+    "name": "Anniversary Parade",
+    "icon": "Icon_Emote_Ninth_Groupmove",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Desfile de Aniversário"
+  },
+  {
+    "id": "909054006",
+    "name": "Celebration Dance",
+    "icon": "Icon_Emote_Ninth_Blue",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Dança da Comemoração"
+  },
+  {
+    "id": "909054007",
+    "name": "Volcanic Fury",
+    "icon": "Icon_Emote_Darkdesires",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Fúria Vulcânica"
+  },
+  {
+    "id": "909054008",
+    "name": "Scarlet Finish",
+    "icon": "Icon_Emote_Bloodmoon26",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Poder da Lua"
+  },
+  {
+    "id": "909054009",
+    "name": "Cotton All Over",
+    "icon": "Icon_Emote_Cottonbear",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Algodão pra todo lado"
+  },
+  {
+    "id": "909054010",
+    "name": "Keytar Jam",
+    "icon": "Icon_Emote_MusicJam_1_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Solo de Teclado"
+  },
+  {
+    "id": "909054011",
+    "name": "kitten Accordion",
+    "icon": "Icon_Emote_MusicJam_2_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Solo Felino"
+  },
+  {
+    "id": "909054012",
+    "name": "Smooth Jam",
+    "icon": "Icon_Emote_MusicJam_3_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Solo de Saxofone"
+  },
+  {
+    "id": "909054013",
+    "name": "Drum Jam",
+    "icon": "Icon_Emote_MusicJam_4_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Solo de Bateria"
+  },
+  {
+    "id": "909054014",
+    "name": "Trophy Lift",
+    "icon": "Icon_Emote_FIFACup_Duo",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "O Troféu é Nosso"
+  },
+  {
+    "id": "909054015",
+    "name": "Baa Baa Knit",
+    "icon": "Icon_Emote_Wolf_Sheep",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Tricô Fujão",
+    "pass": "98"
+  },
+  {
+    "id": "909054016",
+    "name": "Spotless",
+    "icon": "Icon_Emote_Virgo26",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Impecável",
+    "pass": "100"
+  },
+  {
+    "id": "909054017",
+    "name": "Heart Swing",
+    "icon": "Icon_Emote_ID_Idol54",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Gingado do Amor"
+  },
+  {
+    "id": "909054019",
+    "name": "Scuba Dance",
+    "icon": "Icon_Emote_ScubaDance",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Dança Scuba"
+  },
+  {
+    "id": "909054020",
+    "name": "Anniversary Parade",
+    "icon": "Icon_Emote_Ninth_Groupmove",
+    "rare": "RED",
+    "cat": "EMOTE",
+    "tag": "OB54",
+    "name_pt": "Desfile de Aniversário"
+  },
+  {
+    "id": "909055001",
+    "name": "Poder do Alien X",
+    "icon": "Icon_Emote_WB_X",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB55"
+  },
+  {
+    "id": "909055002",
+    "name": "Turkey Balloon",
+    "icon": "Icon_Emote_Thanksgiving26_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Voa, Peru!"
+  },
+  {
+    "id": "909055003",
+    "name": "Lion Dancing",
+    "icon": "Icon_Emote_MAF26",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Dança do Leão"
+  },
+  {
+    "id": "909055004",
+    "name": "Crawl Out",
+    "icon": "Icon_Emote_Halloween_Well_Freezing",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Me chamaram?"
+  },
+  {
+    "id": "909055005",
+    "name": "Broken Cry",
+    "icon": "Icon_Emote_Halloween26_Cry",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Nãããããão!"
+  },
+  {
+    "id": "909055006",
+    "name": "Cosmic Vortex",
+    "icon": "Icon_Emote_Blackdress26_Freeze",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Vórtice Cósmico"
+  },
+  {
+    "id": "909055007",
+    "name": "Cosmic Powershot",
+    "icon": "Icon_Emote_Blackdress26_Evogun_Camera",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Disparo Cósmico"
+  },
+  {
+    "id": "909055008",
+    "name": "Tornado Push",
+    "icon": "Icon_Emote_Storm26",
+    "rare": "PURPLE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Olha o Tornado!"
+  },
+  {
+    "id": "909055009",
+    "name": "Flame Attack!",
+    "icon": "Icon_Emote_Flamedino_Move",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Ataque do Dinozilla!"
+  },
+  {
+    "id": "909055010",
+    "name": "Silent Sting",
+    "icon": "Icon_Emote_Scorpio26",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "pass": "102",
+    "name_pt": "Ferrão Silencioso"
+  },
+  {
+    "id": "909055011",
+    "name": "Strange Power",
+    "icon": "Icon_Emote_Sugarskull26",
+    "rare": "BLUE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Poder Sinistro"
+  },
+  {
+    "id": "909055012",
+    "name": "Beast Pound",
+    "icon": "Icon_Emote_Overrun",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Esmaga tudo!"
+  },
+  {
+    "id": "909055013",
+    "name": "Firefig Showcase",
+    "icon": "Icon_Emote_Figure",
+    "rare": "ORANGE",
+    "cat": "EMOTE",
+    "tag": "OB55",
+    "name_pt": "Vitrine de Frifinhas"
+  }
+]
