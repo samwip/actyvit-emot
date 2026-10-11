@@ -136,6 +136,28 @@
     .buy-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.buy-link[hidden],.buy-panel[hidden]{display:none}
     .account-button.buy-link{background:#2f8f5b;border-color:#3fae72;color:#f4fff8}.account-button.buy-link:hover{background:#38a068}
     .buy-panel{margin:0 0 14px;padding:14px;border:1px solid #3fae7266;border-radius:8px;background:#12231a;color:#bfe6cc;font-size:12px;line-height:1.6}.buy-panel strong{display:block;color:#e4f8ea;font-size:13px;margin-bottom:3px}.buy-panel .buy-link{margin-top:11px;width:100%;height:44px;border-radius:6px;background:#2f8f5b;color:#f4fff8;font-weight:800;font-size:13px}.buy-panel .buy-link:hover{background:#38a068}.buy-panel small{display:block;margin-top:9px;color:#8fb99f;font-size:10px;text-align:center}
+    /* Cota com barra */
+    .quota-wrap{display:flex;flex-direction:column;gap:6px;min-width:150px}.quota-bar{height:5px;border-radius:3px;background:#222c37;overflow:hidden}.quota-bar[hidden]{display:none}.quota-bar i{display:block;height:100%;width:0;border-radius:3px;background:#3fae72;transition:width .4s,background .3s}.quota-bar[data-level=low] i{background:#e0a84a}.quota-bar[data-level=empty] i{background:#d1607a}.quota-bar[data-level=paid] i{background:#72a7f8}
+    /* Mais usados */
+    .top-strip{margin:18px 0 0}.top-strip[hidden]{display:none}.top-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:9px}.top-head h2{margin:0;font-size:14px;font-weight:650;color:#e1e7ed}.top-head span{font:9px ui-monospace,monospace;letter-spacing:.1em;color:#768391}
+    .top-list{display:flex;gap:9px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity;scrollbar-width:thin}.top-card{flex:none;scroll-snap-align:start;display:flex;align-items:center;gap:9px;min-width:195px;padding:8px 14px 8px 10px;border:1px solid #29333e;border-radius:6px;background:#131a22;color:#dce3e9;text-align:left;transition:border-color .16s,background .16s}.top-card:hover{border-color:#47617c;background:#171f29}.top-card img{width:46px;height:46px;flex:none;border-radius:4px;background:#0e141b;object-fit:contain}.top-rank{flex:none;width:12px;color:#72a7f8;font:700 12px ui-monospace,monospace}.top-info{min-width:0;display:flex;flex-direction:column}.top-info strong{max-width:115px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;font-weight:600}.top-info small{margin-top:2px;color:#8994a0;font-size:10px}
+    /* Tela de sucesso */
+    .success-view{padding:28px 20px 22px;text-align:center}.success-view[hidden],.form[hidden]{display:none}.success-check{display:grid;place-items:center;width:64px;height:64px;margin:0 auto 14px;border:2px solid #3fae72;border-radius:50%;background:#17261e;color:#8fe0ae;font-size:30px;animation:popIn .35s cubic-bezier(.2,1.4,.4,1)}@keyframes popIn{from{transform:scale(.4);opacity:0}to{transform:none;opacity:1}}.success-view h3{margin:0 0 4px;color:#f0f3f6;font-size:21px}.success-name{margin:0 0 10px;color:#a8c8f2;font-size:13px;font-weight:650}.success-msg{margin:0;color:#b9c3ce;font-size:12px;overflow-wrap:anywhere}.success-info{margin:8px 0 0;color:#8994a0;font-size:12px}.success-actions{display:grid;gap:9px;margin-top:22px}.success-actions .submit{margin-top:0}.success-actions .account-button{width:100%;height:48px;font-size:13px}
+    .link-btn{display:block;margin:10px auto 0;padding:4px;border:0;background:none;color:#8aa6c8;font-size:11px;text-decoration:underline}.link-btn[hidden]{display:none}
+    /* Celular */
+    @media(max-width:640px){
+      .quota-wrap{flex:1}
+      .shade{align-items:flex-end;padding:0}
+      .modal{width:100%;max-width:none;max-height:92vh;max-height:92dvh;border-radius:16px 16px 0 0;border-bottom:0;padding-bottom:env(safe-area-inset-bottom,0px);animation:sheetUp .25s ease-out}
+      @keyframes sheetUp{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
+      .modal-head{position:sticky;top:0;z-index:2;padding:14px 16px;background:#121820}.close{width:42px;height:42px;font-size:22px}
+      .selected{padding:14px 16px 2px}.selected-art{width:64px;height:64px}.form{padding:14px 16px 22px}
+      .field input{height:50px;font-size:16px}.submit{height:54px;font-size:15px}.add-player{width:100%;height:46px}.remove-player{height:50px;width:46px}
+      .search-wrap{height:48px}.search{font-size:16px}.version-control select{height:44px;font-size:14px}.gallery-heading .sort-control{height:44px}.gallery-heading .sort-control select{height:40px;font-size:13px}
+      .chip{padding:9px 12px;font-size:11px}.account-button{height:44px}
+      .top-card{min-width:178px}
+    }
+    @media(prefers-reduced-motion:reduce){.success-check,.modal{animation:none!important}}
   </style>
 </head>
 <body>
@@ -151,7 +173,7 @@
       </section>
       <section class="account-strip" aria-label="Conta e acesso">
         <div class="account-copy"><span class="account-pulse" id="accountPulse"></span><span id="accountStatus">Conectando ao Discord...</span></div>
-        <div class="account-actions"><span class="quota-label" id="quotaStatus">Verificando cota</span><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><a class="account-button buy-link" id="buyButton" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar acesso</a><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
+        <div class="account-actions"><div class="quota-wrap"><span class="quota-label" id="quotaStatus">Verificando cota</span><div class="quota-bar" id="quotaBar" hidden><i id="quotaFill"></i></div></div><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><a class="account-button buy-link" id="buyButton" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar acesso</a><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
       </section>
       <form class="redeem-strip" id="redeemForm" hidden>
         <div><strong>Ativar 7 dias de acesso</strong><span>O código é vinculado à conta Discord conectada e só pode ser resgatado uma vez.</span></div>
@@ -164,6 +186,7 @@
         <label class="version-control">VERSÃO<select id="versionFilter" aria-label="Filtrar pela versão do jogo"></select></label>
       </section>
       <div class="filter-row"><span class="filter-label">RARIDADE</span><div class="filters" id="filters" aria-label="Filtrar por raridade"></div></div>
+      <section class="top-strip" id="topStrip" hidden aria-label="Emotes mais usados"><div class="top-head"><h2>🔥 Mais usados</h2><span>TOP PEDIDOS</span></div><div class="top-list" id="topList"></div></section>
       <div class="gallery-heading"><h2>Todos os emotes</h2><div class="gallery-controls"><label class="version-control sort-control">ORDENAR<select id="sortOrder" aria-label="Ordenar emotes"><option value="recent">Mais recentes</option><option value="popular">Mais usados</option></select></label><span class="sort-note" id="latestVersionLabel">VERSÕES RECENTES</span></div></div>
       <section class="grid" id="grid" aria-live="polite"><div class="loading">Carregando catálogo…</div></section>
     </main>
@@ -182,7 +205,20 @@
         <button class="submit" id="submit" type="submit">Usar emote <span aria-hidden="true">↗</span></button>
         <div class="result" id="result" role="status"></div>
         <p class="fineprint">O pedido usa os dados informados. Não envie senha da sua conta.</p>
+        <button class="link-btn" id="clearSaved" type="button" hidden>Limpar dados salvos neste aparelho</button>
       </form>
+      <div class="success-view" id="successView" hidden>
+        <div class="success-check" aria-hidden="true">✓</div>
+        <h3>Emote enviado!</h3>
+        <p class="success-name" id="successName"></p>
+        <p class="success-msg" id="successMsg"></p>
+        <p class="success-info" id="successInfo"></p>
+        <div class="success-actions">
+          <button class="submit" id="useAgain" type="button">Usar de novo ↻</button>
+          <button class="account-button secondary" id="pickAnother" type="button">Escolher outro emote</button>
+          <a class="account-button buy-link" id="successBuy" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar mais acesso ↗</a>
+        </div>
+      </div>
     </section>
   </div>
   <div class="toast" id="toast" role="status"></div>
@@ -227,8 +263,50 @@
       document.querySelector('#buyPanel').hidden=!reached;
       if(state.chosen||reached)document.querySelector('#submit').disabled=reached;
     }
+    function updateQuotaBar(a){
+      const bar=document.querySelector('#quotaBar'),fill=document.querySelector('#quotaFill');
+      if(!a){bar.hidden=true;return}
+      bar.hidden=false;
+      if(a.paid){fill.style.width='100%';bar.dataset.level='paid';return}
+      const limit=Number(a.free_limit)||1,left=Math.max(0,Number(a.free_remaining)||0),pct=Math.round(left/limit*100);
+      fill.style.width=pct+'%';bar.dataset.level=left===0?'empty':(pct<=34?'low':'ok');
+    }
+    const SAVED_KEY='beyondEmoteSaved';
+    function loadSaved(){try{return JSON.parse(localStorage.getItem(SAVED_KEY)||'null')}catch{return null}}
+    function saveData(d){try{localStorage.setItem(SAVED_KEY,JSON.stringify(d))}catch{}}
+    function clearSavedData(){try{localStorage.removeItem(SAVED_KEY)}catch{}}
+    function applySaved(){
+      const saved=loadSaved(),btn=document.querySelector('#clearSaved');
+      if(!saved||!saved.tc){btn.hidden=true;return}
+      document.querySelector('#team').value=saved.tc;
+      const uids=Array.isArray(saved.uids)?saved.uids.slice(0,6):[];
+      document.querySelector('#player-1').value=uids[0]||'';
+      uids.slice(1).forEach(uid=>addPlayerField(uid,false));
+      btn.hidden=false;
+    }
+    function saveCurrentForm(payload){
+      const uids=[];for(let i=1;i<=6;i++)if(payload['uid'+i])uids.push(payload['uid'+i]);
+      saveData({tc:payload.tc,uids});
+    }
+    function showSuccess(data){
+      const a=data.access;
+      document.querySelector('#successName').textContent=title(state.chosen);
+      document.querySelector('#successMsg').textContent=data.message||'Pedido concluído.';
+      document.querySelector('#successInfo').textContent=a?(a.paid?'Acesso ativo.':`Restam ${a.free_remaining} de ${a.free_limit} usos grátis nesta semana.`):'';
+      document.querySelector('#successBuy').hidden=!(a&&!a.paid&&Number(a.free_remaining)<=0);
+      document.querySelector('#requestForm').hidden=true;
+      document.querySelector('#successView').hidden=false;
+      document.querySelector('#useAgain').focus();
+    }
+    function renderTop(){
+      const el=document.querySelector('#topStrip'),uses=e=>state.popularity[String(e.id)]||0;
+      const top=state.all.filter(e=>uses(e)>0).sort((a,b)=>uses(b)-uses(a)).slice(0,8);
+      if(!top.length){el.hidden=true;return}
+      el.hidden=false;
+      document.querySelector('#topList').innerHTML=top.map((e,i)=>`<button class="top-card" type="button" data-id="${escapeHtml(e.id)}" aria-label="Usar ${escapeHtml(title(e))}"><span class="top-rank">${i+1}</span><img src="${imageUrl(e.id)}" alt="" loading="lazy" decoding="async"><span class="top-info"><strong>${escapeHtml(title(e))}</strong><small>${uses(e)} ${uses(e)===1?'uso':'usos'}</small></span></button>`).join('');
+    }
     function showQuota(access){
-      state.access=access;
+      state.access=access;updateQuotaBar(access);
       if(!access||access.paid||Number(access.free_remaining)>0)state.limitReached=false;
       setTimeout(updateLimitUI,0);
       const el=document.querySelector('#quotaStatus');
@@ -305,32 +383,37 @@
       document.querySelector('#latestVersionLabel').textContent=state.sort==='popular'?'ORDENADO POR PEDIDOS CONCLUÍDOS':(state.latestVersion?`${state.latestVersion} · NOVOS PRIMEIRO`:'VERSÕES RECENTES');
     }
     async function loadCatalog(){
-      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data.sort((a,b)=>versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));state.latestVersion=state.all.reduce((best,e)=>versionNumber(e.tag)>versionNumber(best)?String(e.tag||''):best,'');document.querySelector('#total').textContent=data.length;renderFilters();render()}
+      try{const r=await fetch('./emotes.json');if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data))throw Error('Formato inesperado');state.all=data.sort((a,b)=>versionNumber(b.tag)-versionNumber(a.tag)||Number(b.id)-Number(a.id));state.latestVersion=state.all.reduce((best,e)=>versionNumber(e.tag)>versionNumber(best)?String(e.tag||''):best,'');document.querySelector('#total').textContent=data.length;renderFilters();render();renderTop()}
       catch(e){grid.innerHTML='<div class="load-error">Não consegui carregar <code>emotes.json</code>. Confira se ele está na mesma pasta do <code>index.html</code> no GitHub Pages.</div>';console.error(e)}
     }
     async function loadPopularity(){
-      try{const response=await fetch(apiUrl('/popular'),{headers:{'Accept':'application/json'}});if(!response.ok)return;const data=await response.json();state.popularity=Object.fromEntries((data.items||[]).map(x=>[String(x.emote_id),Number(x.uses)||0]));if(state.all.length)render()}
+      try{const response=await fetch(apiUrl('/popular'),{headers:{'Accept':'application/json'}});if(!response.ok)return;const data=await response.json();state.popularity=Object.fromEntries((data.items||[]).map(x=>[String(x.emote_id),Number(x.uses)||0]));if(state.all.length){render();renderTop()}}
       catch(error){console.warn('Ranking de popularidade ainda indisponível:',error)}
     }
     function openModal(emote){
       if(!state.accessToken){if(!IS_DISCORD_ACTIVITY)document.querySelector('#loginButton').click();else setAccount('Aguardando autenticação Discord','bad');return}
-      state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');updateLimitUI();if(!isLimitReached())document.querySelector('#team').focus()
+      state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#requestForm').hidden=false;document.querySelector('#successView').hidden=true;applySaved();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');updateLimitUI();if(!isLimitReached())document.querySelector(document.querySelector('#team').value?'#submit':'#team').focus()
     }
     function closeModal(){document.querySelector('#shade').classList.remove('open')}
     document.querySelector('#search').addEventListener('input',render);
     filters.addEventListener('click',e=>{const b=e.target.closest('[data-rarity]');if(!b)return;state.rarity=b.dataset.rarity;renderFilters();render()});
     document.querySelector('#versionFilter').addEventListener('change',e=>{state.version=e.target.value;render()});
     document.querySelector('#sortOrder').addEventListener('change',e=>{state.sort=e.target.value;render()});
-    document.querySelector('#addPlayer').addEventListener('click',()=>{
+    function addPlayerField(value='',focus=true){
       const wrap=document.querySelector('#extraPlayers'),current=wrap.querySelectorAll('.player-input').length+1;if(current>=6)return;const n=current+1,field=document.createElement('div');field.className='player-extra';
       field.innerHTML=`<div class="field"><label for="player-${n}">UID do jogador ${n}</label><input class="player-input" id="player-${n}" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="UID do jogador ${n}"></div><button class="remove-player" type="button" aria-label="Remover jogador ${n}">×</button>`;
-      wrap.appendChild(field);field.querySelector('.remove-player').addEventListener('click',()=>{field.remove();renumberPlayers()});renumberPlayers();field.querySelector('input').focus();
-    });
+      wrap.appendChild(field);field.querySelector('.remove-player').addEventListener('click',()=>{field.remove();renumberPlayers()});renumberPlayers();const inp=field.querySelector('input');if(value)inp.value=value;if(focus)inp.focus();
+    }
+    document.querySelector('#addPlayer').addEventListener('click',()=>addPlayerField());
     function renumberPlayers(){
       const rows=[...document.querySelectorAll('#extraPlayers .player-extra')];rows.forEach((row,i)=>{const n=i+2,input=row.querySelector('input'),label=row.querySelector('label'),remove=row.querySelector('.remove-player');input.id=`player-${n}`;label.htmlFor=input.id;label.textContent=`UID do jogador ${n}`;input.placeholder=`UID do jogador ${n}`;remove.setAttribute('aria-label',`Remover jogador ${n}`)});
       const total=rows.length+1,button=document.querySelector('#addPlayer');button.querySelector('span').textContent=`(${total}/6)`;button.disabled=total>=6;
     }
     grid.addEventListener('click',e=>{const c=e.target.closest('[data-id]');if(c){const emote=state.all.find(x=>String(x.id)===c.dataset.id);if(emote)openModal(emote)}});
+    document.querySelector('#topList').addEventListener('click',e=>{const c=e.target.closest('[data-id]');if(c){const emote=state.all.find(x=>String(x.id)===c.dataset.id);if(emote)openModal(emote)}});
+    document.querySelector('#useAgain').addEventListener('click',()=>{document.querySelector('#successView').hidden=true;document.querySelector('#requestForm').hidden=false;document.querySelector('#result').className='result';document.querySelector('#result').textContent='';updateLimitUI()});
+    document.querySelector('#pickAnother').addEventListener('click',closeModal);
+    document.querySelector('#clearSaved').addEventListener('click',()=>{clearSavedData();document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#clearSaved').hidden=true;document.querySelector('#team').focus()});
     document.querySelector('#close').addEventListener('click',closeModal);
     document.querySelector('#shade').addEventListener('click',e=>{if(e.target.id==='shade')closeModal()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
@@ -352,7 +435,7 @@
       result.className='result';result.textContent='';button.disabled=true;button.innerHTML='Enviando…';
       try{
         const data=await apiRequest('/emote',{method:'POST',body:JSON.stringify(payload)});
-        result.className='result show good';result.textContent=`${data.message||'Pedido concluído.'} ${data.access?.paid?'':`Restam ${data.access?.free_remaining??'—'} usos grátis nesta semana.`}`;
+        saveCurrentForm(payload);showSuccess(data);
         state.popularity[String(state.chosen.id)]=(state.popularity[String(state.chosen.id)]||0)+1;render();showQuota(data.access);loadPopularity();
       }catch(error){
         result.className='result show bad';result.textContent=error.message;
