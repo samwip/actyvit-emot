@@ -133,6 +133,9 @@
     .gallery-controls{display:flex;align-items:center;gap:14px}.gallery-heading .sort-control{height:34px;gap:10px;padding:0 9px;border:1px solid #29333e;border-radius:5px;background:#11171e;color:#8995a2;font-size:9px}.gallery-heading .sort-control select{height:32px;max-width:130px;border:0!important;background:transparent!important;color:#dde5ec;font-size:11px}.popular-count{border-color:#355b89;background:#20344e;color:#b5d2ff}
     @media(max-width:560px){.gallery-heading{flex-direction:column;align-items:flex-start}.gallery-controls{width:100%;justify-content:space-between;gap:8px}.gallery-heading .sort-control{flex:1;max-width:225px}.gallery-heading .sort-note{max-width:145px;text-align:right}}
 
+    .buy-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.buy-link[hidden],.buy-panel[hidden]{display:none}
+    .account-button.buy-link{background:#2f8f5b;border-color:#3fae72;color:#f4fff8}.account-button.buy-link:hover{background:#38a068}
+    .buy-panel{margin:0 0 14px;padding:14px;border:1px solid #3fae7266;border-radius:8px;background:#12231a;color:#bfe6cc;font-size:12px;line-height:1.6}.buy-panel strong{display:block;color:#e4f8ea;font-size:13px;margin-bottom:3px}.buy-panel .buy-link{margin-top:11px;width:100%;height:44px;border-radius:6px;background:#2f8f5b;color:#f4fff8;font-weight:800;font-size:13px}.buy-panel .buy-link:hover{background:#38a068}.buy-panel small{display:block;margin-top:9px;color:#8fb99f;font-size:10px;text-align:center}
   </style>
 </head>
 <body>
@@ -148,7 +151,7 @@
       </section>
       <section class="account-strip" aria-label="Conta e acesso">
         <div class="account-copy"><span class="account-pulse" id="accountPulse"></span><span id="accountStatus">Conectando ao Discord...</span></div>
-        <div class="account-actions"><span class="quota-label" id="quotaStatus">Verificando cota</span><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
+        <div class="account-actions"><span class="quota-label" id="quotaStatus">Verificando cota</span><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><a class="account-button buy-link" id="buyButton" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar acesso</a><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
       </section>
       <form class="redeem-strip" id="redeemForm" hidden>
         <div><strong>Ativar 7 dias de acesso</strong><span>O código é vinculado à conta Discord conectada e só pode ser resgatado uma vez.</span></div>
@@ -170,6 +173,7 @@
       <div class="modal-head"><strong id="modalTitle">USAR EMOTE</strong><button class="close" id="close" aria-label="Fechar">×</button></div>
       <div class="selected"><img class="selected-art" id="chosenImage" alt=""><div><h2 id="chosenName"></h2><p>ID do emote: <span id="chosenId"></span></p></div></div>
       <form class="form" id="requestForm">
+        <div class="buy-panel" id="buyPanel" hidden><strong>Seus usos grátis acabaram</strong>Você usou todos os pedidos grátis desta semana. Compre um acesso na loja para continuar usando emotes sem limite.<a class="account-button buy-link" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer">Comprar na loja ↗</a><small>Depois de comprar, use “Resgatar código” nesta página.</small></div>
         <div class="ownership-notice"><span class="notice-icon">ⓘ</span><span><strong>Importante:</strong> para conseguir ver o emote sendo usado dentro do jogo, você precisa tê-lo baixado.</span></div>
         <div class="field"><label for="team">Código da equipe</label><input id="team" name="tc" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 2088398" required><p class="help">Código da equipe em que o bot deve entrar.</p></div>
         <div class="field"><label for="player-1">UID do jogador 1</label><input class="player-input" id="player-1" name="uid1" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 3588937037" required><p class="help">Adicione até 6 UIDs. O bot entra uma vez no squad e envia o emote para cada jogador.</p></div>
@@ -191,7 +195,7 @@
     const IMAGE_API = IS_DISCORD_ACTIVITY ? '/imagens/image/' : 'https://wipimagemitem.squareweb.app/image/';
     const RARITY_LABEL = {GREEN:'Comum', BLUE:'Raro', PURPLE:'Épico', ORANGE:'Lendário', RED:'Mítico'};
     const RARITY_COLOR = {GREEN:'#75d77b', BLUE:'#54a6ff', PURPLE:'#bd7aff', ORANGE:'#ffad55', RED:'#ff5574'};
-    const state = {all:[], rarity:'ALL', version:'ALL', sort:'recent', chosen:null, latestVersion:'', popularity:{}, accessToken:sessionStorage.getItem('beyondEmoteToken')||'', discordUser:null, access:null};
+    const state = {all:[], rarity:'ALL', version:'ALL', sort:'recent', chosen:null, latestVersion:'', popularity:{}, limitReached:false, accessToken:sessionStorage.getItem('beyondEmoteToken')||'', discordUser:null, access:null};
     const grid = document.querySelector('#grid'), filters = document.querySelector('#filters');
     const imageUrl = id => IMAGE_API + encodeURIComponent(id);
     const apiUrl = path => API_BASE + path;
@@ -211,8 +215,20 @@
       document.querySelector('#accountStatus').textContent=message;
       const dot=document.querySelector('#accountPulse');dot.className='account-pulse'+(kind?' '+kind:'');
     }
+    function isLimitReached(){
+      const a=state.access;
+      return !!(state.limitReached||(a&&!a.paid&&Number(a.free_remaining)<=0));
+    }
+    function updateLimitUI(){
+      const reached=isLimitReached();
+      document.querySelector('#buyButton').hidden=!reached;
+      document.querySelector('#buyPanel').hidden=!reached;
+      if(state.chosen||reached)document.querySelector('#submit').disabled=reached;
+    }
     function showQuota(access){
       state.access=access;
+      if(!access||access.paid||Number(access.free_remaining)>0)state.limitReached=false;
+      setTimeout(updateLimitUI,0);
       const el=document.querySelector('#quotaStatus');
       if(!access){el.textContent='Cota indisponível';return}
       if(access.paid){const date=new Date(access.paid_until);el.textContent=`ACESSO ATIVO · até ${date.toLocaleDateString('pt-BR')} ${date.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`}
@@ -296,7 +312,7 @@
     }
     function openModal(emote){
       if(!state.accessToken){if(!IS_DISCORD_ACTIVITY)document.querySelector('#loginButton').click();else setAccount('Aguardando autenticação Discord','bad');return}
-      state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');document.querySelector('#team').focus()
+      state.chosen=emote;document.querySelector('#extraPlayers').innerHTML='';renumberPlayers();document.querySelector('#requestForm').reset();document.querySelector('#chosenName').textContent=title(emote);document.querySelector('#chosenId').textContent=emote.id;const im=document.querySelector('#chosenImage');im.src=imageUrl(emote.id);im.alt=title(emote);document.querySelector('#result').className='result';document.querySelector('#result').textContent='';document.querySelector('#shade').classList.add('open');updateLimitUI();if(!isLimitReached())document.querySelector('#team').focus()
     }
     function closeModal(){document.querySelector('#shade').classList.remove('open')}
     document.querySelector('#search').addEventListener('input',render);
@@ -338,9 +354,9 @@
         state.popularity[String(state.chosen.id)]=(state.popularity[String(state.chosen.id)]||0)+1;render();showQuota(data.access);loadPopularity();
       }catch(error){
         result.className='result show bad';result.textContent=error.message;
-        if(error.code==='FREE_LIMIT_REACHED'){document.querySelector('#redeemForm').hidden=false;document.querySelector('#redeemCode').focus()}
+        if(error.code==='FREE_LIMIT_REACHED'){state.limitReached=true;result.className='result';result.textContent='';updateLimitUI();document.querySelector('#buyPanel').scrollIntoView({block:'nearest',behavior:'smooth'})}
         if(error.status===401){state.accessToken='';sessionStorage.removeItem('beyondEmoteToken');setAccount('Sua sessão Discord expirou. Entre novamente.','bad');document.querySelector('#loginButton').hidden=IS_DISCORD_ACTIVITY}
-      }finally{button.disabled=false;button.innerHTML='Usar emote <span aria-hidden="true">↗</span>'}
+      }finally{button.disabled=false;button.innerHTML='Usar emote <span aria-hidden="true">↗</span>';updateLimitUI()}
     });
     document.addEventListener('contextmenu',event=>event.preventDefault(),{capture:true});
     document.addEventListener('dragstart',event=>{if(event.target instanceof HTMLImageElement)event.preventDefault()},true);
