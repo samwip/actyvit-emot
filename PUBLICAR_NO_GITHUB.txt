@@ -1,0 +1,16 @@
+PUBLICAR NO GITHUB PAGES
+
+1. Extraia estes arquivos na pasta publicada pelo GitHub Pages (junto ao index.html):
+   - index.html
+   - emotes.json
+   - discord-sdk.bundle.js
+   - THIRD_PARTY_NOTICES.md
+2. Espere o GitHub Pages concluir a publicação.
+3. Teste no navegador:
+   https://samwip.github.io/actvity-emot/
+   https://samwip.github.io/actvity-emot/discord-sdk.bundle.js
+   Os dois endereços precisam abrir; o segundo deve mostrar ou baixar JavaScript, não uma página 404.
+4. Se o endereço da página no seu repositório for diferente, use o endereço correto no mapeamento raiz `/` da Activity e em DISCORD_WEB_REDIRECT_URI na Square Cloud.
+5. Mantenha o mapeamento `/api` apontando para o novo app Node e `/imagens` para wipimagemitem.squareweb.app.
+
+O app Flask de emotes não precisa ser editado.
