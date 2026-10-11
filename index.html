@@ -55,6 +55,22 @@
     @media(max-width:640px){.toolbar{grid-template-columns:1fr}.version-control{justify-content:space-between}select{max-width:none}.filter-row{display:block}.filter-label{display:block;margin-bottom:8px}.filters{flex-wrap:nowrap;overflow-x:auto;margin:0 calc(var(--pad)*-1);padding:0 var(--pad);scrollbar-width:none}.chip{flex:none;padding:9px 16px}.gallery-heading{flex-direction:column;align-items:flex-start;gap:10px}.gallery-controls{width:100%;justify-content:space-between}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{padding:9px 9px 12px;border-radius:18px}.art{border-radius:12px}.id{display:none}.top-card{min-width:200px}
       .shade{align-items:flex-end;padding:0}.modal{width:100%;max-height:92vh;max-height:92dvh;border-radius:24px 24px 0 0;padding-bottom:env(safe-area-inset-bottom,0px);animation:sheetUp .32s cubic-bezier(.25,.1,.25,1)}@keyframes sheetUp{from{transform:translateY(60px);opacity:.5}to{transform:none;opacity:1}}.modal:before{content:"";display:block;width:38px;height:5px;margin:8px auto 0;border-radius:3px;background:var(--line)}.modal-head{position:sticky;top:0;z-index:2;background:var(--card)}.close{width:36px;height:36px}.account-button{height:42px}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+    /* ===== Ajustes: topo enxuto, pílula flutuante, janela com destaque ===== */
+    main{padding-bottom:130px}.page-intro{padding:56px 0 30px}.page-intro h1{font-size:clamp(34px,5.6vw,58px)}.count{margin-top:12px}.sort-note{display:none}
+    .account-strip{position:fixed;right:16px;bottom:16px;z-index:15;display:flex;flex-direction:row;align-items:center;gap:10px;margin:0;max-width:calc(100vw - 32px);padding:8px 8px 8px 14px;border-radius:980px;background:var(--glass);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:0 8px 30px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.12)}
+    .account-copy{gap:0}.account-copy #accountStatus{display:none}.account-strip:has(.account-pulse.bad) #accountStatus{display:inline;max-width:150px;margin-left:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--red);font-size:12px}
+    .account-actions{flex-wrap:nowrap;gap:8px}.quota-wrap{flex:none;min-width:0;gap:4px}.quota-label{color:var(--text);font-size:12px;font-weight:500}.quota-bar{height:3px}.account-actions .account-button{height:30px;padding:0 13px;font-size:12px}
+    .redeem-strip{position:fixed;right:16px;bottom:72px;z-index:16;width:min(380px,calc(100vw - 32px));grid-template-columns:1fr auto;margin:0;box-shadow:0 20px 60px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.12)}.redeem-strip>div{grid-column:1/-1}
+    .selected p{color:var(--text);opacity:.75}#chosenId{color:var(--blue);font-weight:600;font-variant-numeric:tabular-nums}
+    .field label{color:var(--text);font-size:14px;font-weight:600}
+    .field input{height:54px;border:1.5px solid #5a5a60;border-radius:14px;background:#2c2c2e;font-size:18px;font-weight:500;letter-spacing:.02em}.field input::placeholder{color:#7c7c82;font-weight:400}
+    .field input:not(:placeholder-shown){border-color:rgba(41,151,255,.7);background:rgba(41,151,255,.1)}.field input:focus{border-color:var(--blue);background:#2c2c2e;box-shadow:0 0 0 4px rgba(41,151,255,.3)}
+    .ownership-notice{border:1px solid rgba(255,159,10,.4);background:rgba(255,159,10,.12);color:#ffd89b}.ownership-notice strong{color:#ffb840}
+    .result.show{padding:14px 16px;border:1px solid transparent;font-size:14px;font-weight:500}.result.good{border-color:rgba(48,209,88,.45)}.result.bad{border-color:rgba(255,69,58,.5)}.result.bad:before{content:"⚠ "}.result.good:before{content:"✓ "}
+    @media(max-width:640px){
+      .account-strip{left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));max-width:none;justify-content:space-between;padding:8px 8px 8px 14px}.account-copy{flex:none}.account-actions{flex:1;justify-content:flex-end}.quota-wrap{margin-right:auto}
+      .redeem-strip{left:12px;right:12px;width:auto;bottom:calc(72px + env(safe-area-inset-bottom,0px))}.account-actions .account-button{height:34px}.page-intro{padding:40px 0 24px}
+    }
   </style>
 </head>
 <body>
@@ -65,14 +81,12 @@
     </header>
     <main>
       <section class="page-intro">
-        <p class="kicker">Catálogo de emotes</p>
         <h1>Escolha seu emote.</h1>
-        <p class="lede">Explore o catálogo e use o emote no jogo, direto no seu squad.</p>
         <p class="count"><strong id="total">—</strong> emotes disponíveis</p>
       </section>
       <section class="account-strip" aria-label="Conta e acesso">
         <div class="account-copy"><span class="account-pulse" id="accountPulse"></span><span id="accountStatus">Conectando ao Discord...</span></div>
-        <div class="account-actions"><div class="quota-wrap"><span class="quota-label" id="quotaStatus">Verificando cota</span><div class="quota-bar" id="quotaBar" hidden><i id="quotaFill"></i></div></div><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><a class="account-button buy-link" id="buyButton" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar acesso</a><button class="account-button" id="redeemToggle" type="button">Resgatar código</button></div>
+        <div class="account-actions"><div class="quota-wrap"><span class="quota-label" id="quotaStatus">Verificando cota</span><div class="quota-bar" id="quotaBar" hidden><i id="quotaFill"></i></div></div><button class="account-button secondary" id="loginButton" type="button" hidden>Entrar com Discord</button><a class="account-button buy-link" id="buyButton" href="https://beyond.squareweb.app/?p=bot-de-emote" target="_blank" rel="noopener noreferrer" hidden>Comprar acesso</a><button class="account-button" id="redeemToggle" type="button">Resgatar</button></div>
       </section>
       <form class="redeem-strip" id="redeemForm" hidden>
         <div><strong>Ativar 7 dias de acesso</strong><span>O código é vinculado à conta Discord conectada e só pode ser resgatado uma vez.</span></div>
@@ -149,7 +163,7 @@
       return data;
     }
     function setAccount(message,kind=''){
-      document.querySelector('#accountStatus').textContent=message;
+      document.querySelector('#accountStatus').textContent=message;document.querySelector('.account-strip').title=message;
       const dot=document.querySelector('#accountPulse');dot.className='account-pulse'+(kind?' '+kind:'');
     }
     function isLimitReached(){
@@ -210,8 +224,8 @@
       setTimeout(updateLimitUI,0);
       const el=document.querySelector('#quotaStatus');
       if(!access){el.textContent='Cota indisponível';return}
-      if(access.paid){const date=new Date(access.paid_until);el.textContent=`Acesso ativo até ${date.toLocaleDateString('pt-BR')} ${date.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`}
-      else el.textContent=`Grátis · ${access.free_remaining} de ${access.free_limit} pedidos restantes esta semana`;
+      if(access.paid){const date=new Date(access.paid_until);el.textContent=`Acesso até ${date.toLocaleDateString('pt-BR')}`}
+      else el.textContent=`${access.free_remaining} de ${access.free_limit} usos grátis`;
     }
     async function refreshAccess(){
       if(!state.accessToken){showQuota(null);return}
