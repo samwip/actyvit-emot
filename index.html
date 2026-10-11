@@ -120,18 +120,19 @@
     @media(max-width:760px){.shell{padding:16px 18px 48px}.page-intro{padding:24px 0 18px}.grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:9px}}
     @media(max-width:520px){.shell{padding:13px 12px 40px}.top-note{font-size:8px}.toolbar{grid-template-columns:1fr;gap:8px}.version-control{height:42px}.version-control select{max-width:none}.filter-row{display:block}.filter-label{display:block;padding:0 0 8px}.filters{gap:6px}.chip{padding:6px 8px}.gallery-heading{align-items:flex-start;gap:12px}.sort-note{max-width:145px;text-align:right;line-height:1.5}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:6px}.meta{gap:4px;flex-wrap:wrap}.id{display:none}.intro-row h1{font-size:27px}}
 
+      img{-webkit-user-drag:none;user-select:none}
   </style>
 </head>
 <body>
   <div class="shell">
     <header>
-      <div class="brand"><span class="brand-mark">BE</span><span class="brand-text">BEYOND <span class="brand-accent">EMOTE</span></span></div>
+      <div class="brand"><span class="brand-mark">B</span><span class="brand-text">BEYOND <span class="brand-accent">EMOTE</span></span></div>
       <div class="top-note">FREE FIRE <span>·</span> EMOTE CATALOG</div>
     </header>
     <main>
       <section class="page-intro">
         <div class="eyebrow">FREE FIRE <span>/</span> CATÁLOGO DE EMOTES</div>
-        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e envie para o seu squad.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
+        <div class="intro-row"><div><h1>Escolha seu emote</h1><p>Encontre um emote e user sem ter comprado.</p></div><div class="total-stat"><strong id="total">—</strong><span>EMOTES</span></div></div>
       </section>
       <section class="toolbar" aria-label="Busca e versão">
         <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="search" type="search" placeholder="Buscar emotes por nome ou ID" autocomplete="off" aria-label="Buscar emotes"></div>
@@ -144,15 +145,15 @@
   </div>
   <div class="shade" id="shade" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <section class="modal">
-      <div class="modal-head"><strong id="modalTitle">PEDIR EMOTE</strong><button class="close" id="close" aria-label="Fechar">×</button></div>
+      <div class="modal-head"><strong id="modalTitle">USAR EMOTE</strong><button class="close" id="close" aria-label="Fechar">×</button></div>
       <div class="selected"><img class="selected-art" id="chosenImage" alt=""><div><h2 id="chosenName"></h2><p>ID do emote: <span id="chosenId"></span></p></div></div>
       <form class="form" id="requestForm">
-        <div class="ownership-notice"><span class="notice-icon">ⓘ</span><span><strong>Importante:</strong> para conseguir ver o emote sendo usado dentro do jogo, você precisa tê-lo disponível/baixado na sua conta.</span></div>
-        <div class="field"><label for="team">Código da equipe</label><input id="team" name="tc" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 2088398" required><p class="help">Código da sala/equipe em que o bot deve entrar.</p></div>
+        <div class="ownership-notice"><span class="notice-icon">ⓘ</span><span><strong>Importante:</strong> para conseguir ver o emote sendo usado dentro do jogo, você precisa tê-lo baixado.</span></div>
+        <div class="field"><label for="team">Código da equipe</label><input id="team" name="tc" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 2088398" required><p class="help">Código da equipe em que o bot deve entrar.</p></div>
         <div class="field"><label for="player-1">UID do jogador 1</label><input class="player-input" id="player-1" name="uid1" inputmode="numeric" pattern="[0-9]+" maxlength="24" placeholder="Ex.: 3588937037" required><p class="help">Adicione até 6 UIDs. O bot entra uma vez no squad e envia o emote para cada jogador.</p></div>
         <div id="extraPlayers"></div>
         <button class="add-player" id="addPlayer" type="button">＋ Adicionar jogador <span>(1/6)</span></button>
-        <button class="submit" id="submit" type="submit">Enviar pedido <span aria-hidden="true">↗</span></button>
+        <button class="submit" id="submit" type="submit">Usar emote <span aria-hidden="true">↗</span></button>
         <div class="result" id="result" role="status"></div>
         <p class="fineprint">O pedido usa os dados informados. Não envie senha da sua conta.</p>
       </form>
@@ -161,8 +162,11 @@
   <div class="toast" id="toast" role="status"></div>
   <script>
     // A API recebe um GET com tc, uid1 e emote_id. Mantenha URL pública; nunca coloque senhas aqui.
-    const EMOTE_API = 'https://emote-wip.squareweb.app/emote';
-    const IMAGE_API = 'https://wipimagemitem.squareweb.app/image/';
+    // Na Activity do Discord, use os prefixos configurados em Activities > URL Mappings.
+    // No navegador comum, mantenha os endereços públicos que já funcionam.
+    const IS_DISCORD_ACTIVITY = /\.discordsays\.com$/i.test(window.location.hostname);
+    const EMOTE_API = IS_DISCORD_ACTIVITY ? '/api/emote' : 'https://emote-wip.squareweb.app/emote';
+    const IMAGE_API = IS_DISCORD_ACTIVITY ? '/imagens/image/' : 'https://wipimagemitem.squareweb.app/image/';
     const RARITY_LABEL = {GREEN:'Comum', BLUE:'Raro', PURPLE:'Épico', ORANGE:'Lendário', RED:'Mítico'};
     const RARITY_COLOR = {GREEN:'#75d77b', BLUE:'#54a6ff', PURPLE:'#bd7aff', ORANGE:'#ffad55', RED:'#ff5574'};
     const state = {all:[], rarity:'ALL', version:'ALL', chosen:null, latestVersion:''};
@@ -223,9 +227,19 @@
       }catch(err){
         result.className='result show bad';
         const msg=String(err.message||err);
-        result.textContent=(msg.includes('Failed to fetch')||msg.includes('NetworkError')||msg.includes('Load failed'))?'O navegador não conseguiu ler a resposta da API. Confira se a Square Cloud permite CORS para o domínio do seu GitHub Pages e se a API está online. O pedido pode não ter sido enviado.':msg;
+        result.textContent=(msg.includes('Failed to fetch')||msg.includes('NetworkError')||msg.includes('Load failed'))
+          ? (IS_DISCORD_ACTIVITY
+            ? 'O Discord não conseguiu alcançar a API pelo mapeamento /api. Confira em Activities → Mapeamentos de URL se /api aponta para emote-wip.squareweb.app e se as alterações foram salvas. O pedido pode não ter sido enviado.'
+            : 'O navegador não conseguiu ler a resposta da API. Confira o CORS da Square Cloud e se a API está online. O pedido pode não ter sido enviado.')
+          : msg;
       }finally{button.disabled=false;button.innerHTML='Enviar pedido <span aria-hidden="true">↗</span>'}
     });
+
+    // Dificulta o salvamento casual; imagens públicas ainda podem ser abertas pela rede.
+    document.addEventListener('contextmenu', event => event.preventDefault(), {capture:true});
+    document.addEventListener('dragstart', event => {
+      if (event.target instanceof HTMLImageElement) event.preventDefault();
+    }, true);
     loadCatalog();
   </script>
 </body>
